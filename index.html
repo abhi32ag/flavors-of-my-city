@@ -64,7 +64,7 @@
           <div class="col-sm-12">
             <div class="chart-wrapper">
               <div class="chart-title">
-                Number of Flavor Boxes
+                Number of Flavor Box
               </div>
               <div class="chart-stage">
                 <div id="time-chart"></div>
@@ -154,8 +154,9 @@
     var india = map.append("svg:g")
         .attr("id", "india");
 
-    var color = d3.scaleQuantize()
-            .range(d3.schemeBlues[9]);
+    var color = d3.scaleSequential(d3.interpolateBlues);
+
+    console.log(color)
 
     var bar = d3.select("#resource-type-row-chart").append("svg:svg")
                 .attr("width", 580)
@@ -175,8 +176,6 @@
           var max  = d3.max(data, function(d) { return d.value; })
           var min = d3.min(data, function(d) { return d.value; })
           //Set input domain for color scale
-          color.domain([ min, max
-          ]);
 
           var range = max - min;
 
@@ -208,12 +207,12 @@
                   return yScale(d.value);
              })
              .attr("fill", function(d) {
-                  return "rgb(100, 0, " + Math.round(d.value/max * 100) +")";
+                  return color(d.value/max) ;
              });
 
 
           console.log(data);
-          bar.selectAll("text")
+          /*bar.selectAll("text")
              .data(data)
              .enter()
              .append("text")
@@ -229,12 +228,12 @@
              })
              .attr("font-family", "sans-serif")
              .attr("font-size", "11px")
-             .attr("fill", "white");
+             .attr("fill", "white");*/
 
           d3.json("india-states.json", function (json) {
 
 
-              //Merge the ag. data and GeoJSON
+              //Merge the data and GeoJSON
             //Loop through once for each ag. data value
             for (var i = 0; i < data.length; i++) {
           
@@ -270,17 +269,19 @@
               .style("fill", function(d) {
                 var value = parseFloat(d.value);
                 if (value) {
+                  console.log(color(value/max));
                   //If value exists…
-                  return color(value);
+                  return color(value/max);
                 } else {
                   //If value is undefined…
-                  return "#ccc";
+                  return "#fff";
                 }
              })
               .on("mouseover", function(d) {
                   document.getElementById("total-donations-nd").innerHTML = d.value;
                   filterState(d.id);
               })
+              .on("mouseout", )
               .on("click", function(d) {
                   filterState(d.id);
 
@@ -309,10 +310,14 @@
                             return 'orange';
                         }
                         else {
-                          return "rgb(100, 0, " + Math.round(d.value/max * 100) +")";
+                          return color(d.value/max);
                         }
 
-                 });
+                 })
+                 .append("title")
+                 .text(function(d) {
+                    return d.state;
+                });
           }
 
       /*    
