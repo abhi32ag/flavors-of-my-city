@@ -160,11 +160,17 @@
 
   </div>
   <script type="text/javascript">
+    var timeline;
     var option;
     function type1(value) {
           option = value;
-          console.log(option);
-          loadData(option);
+          if (timeline) {
+              loadData(option,timeline);
+          }
+          else {
+            loadData(option);
+          }
+          
     }
     // On-load
     $(function () {
@@ -210,7 +216,6 @@
 
             for (var i = 0; i <= vals; i++) {
                 var el = $('<label>' + years[i] + '</label>').css('left', (i / vals * 155) + '%');
-                console.log(el);
                 $("#time-chart").append(el);
             }
         });
@@ -222,9 +227,10 @@
         /* ****** Update map on selection ****** */ 
         $("#time-chart").on('slidechange', function(event, ui) {
             var index = ui.value
-            console.log(index);
+
             year = years[index - 1]
-            console.log(year);
+
+            timeline = year;
             loadData(option,year);
         });
        
@@ -259,7 +265,6 @@
 
     // Load in wealth json 
     function loadData(action = 'Production',year = '2017') {
-    console.log(year);
 
     d3.csv("FlavoursData.csv", function(data) {
           data = data.filter(function(d) {
