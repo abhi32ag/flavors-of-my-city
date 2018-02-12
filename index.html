@@ -153,6 +153,8 @@
   <script type="text/javascript">
     var w = 580;
     var h = 600;
+    var padding = 40;
+    var axisPad = 5;
     var proj = d3.geo.mercator();
     var path = d3.geo.path().projection(proj);
     var t = proj.translate(); // the projection's default translation
@@ -298,73 +300,116 @@
           }
 
           function productionPlot() {
+            barMap = d3.map();
 
-          d3.selectAll("svg").remove();
+            d3.selectAll("svg").remove();
 
-          var map = d3.select("#chart").append("svg:svg")
-        .attr("width", w)
-        .attr("height", h)
-      //        .call(d3.behavior.zoom().on("zoom", redraw))
-              .call(initialize);
-          var india = map.append("svg:g")
-              .attr("id", "india");
+            var map = d3.select("#chart").append("svg:svg")
+          .attr("width", w)
+          .attr("height", h)
+        //        .call(d3.behavior.zoom().on("zoom", redraw))
+                .call(initialize);
+            var india = map.append("svg:g")
+                .attr("id", "india");
 
-          var color = d3.scaleSequential(d3.interpolateBlues);
+            var color = d3.scaleSequential(d3.interpolateBlues);
 
-          var bar = d3.select("#resource-type-row-chart").append("svg:svg")
-                      .attr("width", 580)
-                      .attr("height", 300);
+            var bar = d3.select("#resource-type-row-chart").append("svg:svg")
+                        .attr("width", 580)
+                        .attr("height", 300);
 
-          india.selectAll("path")
-              .data(json.features)
-              .enter().append("path")
-              .attr("d", path)
-              .style("fill", function(d) {
-                var value = getTotalProductQuantity(d);
-                if (value) {
-                  //If value exists…
-                  return color(value/maxProd);
-                } else {
-                  //If value is undefined…
-                  return "#fff";
-                }
-              })
-              .on("mouseover", function(d) {
-                  document.getElementById("total-donations-nd").innerHTML = getTotalProductQuantity(d);
-              })
+            india.selectAll("path")
+                .data(json.features)
+                .enter().append("path")
+                .attr("d", path)
+                .style("fill", function(d) {
+                  var value = getTotalProductQuantity(d);
+                  if (value) {
+                    barMap.set(d.id, value);
+                    //If value exists…
+                    return color(value/maxProd);
+                  } else {
+                    //If value is undefined…
+                    return "#fff";
+                  }
+                })
+                .on("mouseover", function(d) {
+                    d3.select(this)
+                      .append("title")
+                      .text("State: " + d.id + '\n' + 'Product Quantity : ' + getTotalProductQuantity(d));
 
-          var len = json.features.length;
-          var xScale = d3.scaleBand()
-                         .domain(d3.range(json.features.length))
-                         .rangeRound([0,580])
-                         .paddingInner(0.05);
+                    document.getElementById("total-donations-nd").innerHTML = getTotalProductQuantity(d);
 
-          var yScale = d3.scaleLinear()
-                         .domain([0, maxProd])
-                         .range([0,300]);
+                    filterS(d.id);
+                })
 
+            var len = json.features.length;
+            var xScale = d3.scaleBand()
+                           .domain(d3.range(json.features.length))
+                           .rangeRound([padding,580])
+                           .paddingInner(0.05);
 
-
-          bar.selectAll("rect")
-             .data(json.features)
-             .enter()
-             .append("rect")
-             .attr("x", function(d, i) {
-                  return xScale(i);
-             })
-             .attr("y", function(d) {
-                  return 300 - yScale(getTotalProductQuantity(d));
-             })
-             .attr("width", xScale.bandwidth())
-             .attr("height", function(d) {
-                  return yScale(getTotalProductQuantity(d));
-             })
-             .attr("fill", function(d) {
-                  return color(getTotalProductQuantity(d)/maxProd) ;
-             });
+            var yScale = d3.scaleLinear()
+                           .domain([0, maxProd])
+                           .range([300 - axisPad,0]);
 
 
+
+            bar.selectAll("rect")
+               .data(barMap.entries())
+               .enter()
+               .append("rect")
+               .attr("x", function(d, i) {
+                    return xScale(i);
+               })
+               .attr("y", function(d) {
+                    return yScale(d.value);
+               })
+               .attr("width", xScale.bandwidth())
+               .attr("height", function(d) {
+                    return yScale(0) - yScale(d.value);
+               })
+               .attr("fill", function(d) {
+                    return color(d.value/maxProd) ;
+               });
+
+            xAxis = d3.axisBottom()
+                      .scale(xScale)
+
+
+            yAxis = d3.axisLeft()
+              .scale(yScale)
+              .ticks(10);
+
+            bar.append("g")
+                .attr("class","axis")
+                .attr("transform", "translate(0," + ( 300 - axisPad ) + ")")
+                .call(xAxis);
+
+            bar.append("g")
+                .attr("class","axis")
+                .attr("transform", "translate(" + padding + ",0)")
+                .call(yAxis);
+
+
+            function filterS(state) {
+                bar.selectAll("rect")
+                 .attr("fill",function(d){
+                        if (d.key == state) {
+                            return 'orange';
+                        }
+                        else {
+                          return color(d.value/maxProd);
+                        }
+
+                 })
+                 .append("title")
+                 .text(function(d) {
+                    return d.key;
+                });
             }
+
+          }
 
 
             // Function for creating the Revenue Plots 
@@ -387,7 +432,6 @@
                       .attr("height", 300);
 
 
-            console.log("here");
 
             maxRev = getMaxRev(json);
             minRev= getMinRev(json);
@@ -409,44 +453,88 @@
                   }
                 })
                 .on("mouseover", function(d) {
+
+                      d3.select(this)
+                      .append("title")
+                      .text("State: " +d.id + '\n' + "Total Revenue by State: " + getTotalRevenue(d));
+
                       document.getElementById("total-donations-nd").innerHTML = getTotalRevenue(d);
+                      filterS(d.id)
                 });
 
-            console.log(barMap);
+
 
             var len = json.features.length;
             var xScale = d3.scaleBand()
                            .domain(d3.range(json.features.length))
-                           .rangeRound([0,580])
+                           .rangeRound([padding,580])
                            .paddingInner(0.05);
 
             var yScale = d3.scaleLinear()
                            .domain([0, maxRev])
-                           .range([0,300]);
+                           .range([300 - axisPad,0]);
 
-            console.log(barMap.get('Gujarat'));
+
 
             bar.selectAll("rect")
-               .data(json.features)
+               .data(barMap.entries())
                .enter()
                .append("rect")
                .attr("x", function(d, i) {
                     return xScale(i);
                })
                .attr("y", function(d) {
-                    console.log(d.value);
-                    return 300 - yScale(d.value);
+
+                    return yScale(d.value);
                })
                .attr("width", xScale.bandwidth())
                .attr("height", function(d) {
-                    return yScale(d.value);
+                    return yScale(0) - yScale(d.value);
                })
                .attr("fill", function(d) {
                     return color(d.value/maxRev) ;
                });
 
+            xAxis = d3.axisBottom()
+                      .scale(xScale)
 
-              }
+
+            yAxis = d3.axisLeft()
+              .scale(yScale)
+              .ticks(10);
+
+            bar.append("g")
+                .attr("class","axis")
+                .attr("transform", "translate(0," + ( 300 - axisPad ) + ")")
+                .call(xAxis);
+
+            bar.append("g")
+                .attr("class","axis")
+                .attr("transform", "translate(" + padding + ",0)")
+                .call(yAxis);
+
+
+
+
+            function filterS(state) {
+                bar.selectAll("rect")
+                 .attr("fill",function(d){
+                        if (d.key == state) {
+                            return 'orange';
+                        }
+                        else {
+                          return color(d.value/maxRev);
+                        }
+
+                 })
+                 .append("title")
+                 .text(function(d) {
+                    return d.key;
+                });
+            }
+
+
+          }
 
 
 
