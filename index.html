@@ -28,6 +28,12 @@
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
     <!--  Styles  -->  
     <link type="text/css" rel="stylesheet" href="zcolorbrewer.css"/>
     <style type="text/css">
@@ -62,9 +68,9 @@
               <div class="chart-title">
                   Options to chose data
                   <form>
-                      <input type="radio" id="Production" name = "foo" onclick="loadData('Production')"/>
+                      <input type="radio" id="Production" name = "foo" onclick="type1('Production')"/>
                       <label for="Production">Production</label>
-                      <input type="radio" id="Revenue" name="foo" onclick="loadData('Revenue')"/>
+                      <input type="radio" id="Revenue" name="foo" onclick="type1('Revenue')"/>
                       <label for="Revenue"> Revenue </label>
                   </form>
               </div>
@@ -81,7 +87,10 @@
                 Number of Flavor Box
               </div>
               <div class="chart-stage">
-                <div id="time-chart"></div>
+                <div id="time-chart">
+                </div>
+                <div class="test">
+                </div>
               </div>
             </div>
           </div>
@@ -151,6 +160,79 @@
 
   </div>
   <script type="text/javascript">
+    var option;
+    function type1(value) {
+          option = value;
+          console.log(option);
+          loadData(option);
+    }
+    // On-load
+    $(function () {
+        /* ****** Graph Margins ****** */ 
+        var width = 1400;
+        var height = 600;
+
+        var margin = {
+            top: 100,
+            right: 20,
+            bottom: 20,
+            left: 20
+        };
+
+         // set default variables
+       var years = [
+                    "2005",
+                    "2006",
+                    "2007",
+                    "2008",
+                    "2009",
+                    "2010",
+                    "2011",
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017"
+                    ]
+
+         //Slider min max will depend on the no of ordinal elements in years or products
+        /* ****** Slider ****** */
+        $("#time-chart").slider({
+            value: 1,
+            min: 1,
+            max: 13,
+            step: 1
+        })
+        .each(function() {
+            var opt = $(this).data().uiSlider.options;
+            var vals = opt.max - opt.min;
+
+            for (var i = 0; i <= vals; i++) {
+                var el = $('<label>' + years[i] + '</label>').css('left', (i / vals * 155) + '%');
+                console.log(el);
+                $("#time-chart").append(el);
+            }
+        });
+        //var val = $('#slider').slider("option", "value");
+        //console.log(val)
+        
+        
+        //Converts index of the slider to year and passess to draw function
+        /* ****** Update map on selection ****** */ 
+        $("#time-chart").on('slidechange', function(event, ui) {
+            var index = ui.value
+            console.log(index);
+            year = years[index - 1]
+            console.log(year);
+            loadData(option,year);
+        });
+       
+    })
+
+
+
+
     var w = 580;
     var h = 600;
     var padding = 40;
@@ -176,9 +258,15 @@
 
 
     // Load in wealth json 
-    function loadData(action) {
+    function loadData(action = 'Production',year = '2017') {
+    console.log(year);
 
     d3.csv("FlavoursData.csv", function(data) {
+          data = data.filter(function(d) {
+                if (d['date'] == year) {
+                  return d;
+                }
+          });
 
           var maxProd  = 0;
           var minProd = 0;
@@ -351,7 +439,7 @@
 
             var yScale = d3.scaleLinear()
                            .domain([0, maxProd])
-                           .range([300 - axisPad,0]);
+                           .range([300 - axisPad,5]);
 
 
 
@@ -472,7 +560,7 @@
 
             var yScale = d3.scaleLinear()
                            .domain([0, maxRev])
-                           .range([300 - axisPad,0]);
+                           .range([300 - axisPad,5]);
 
 
 
