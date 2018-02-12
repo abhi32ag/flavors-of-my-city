@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./static/css/custom.css">
 
     <!--  Scripts  -->
+
     <script type="text/javascript" src="d3.min.js"></script>
     <script type="text/javascript" src="d3.geo.min.js"></script>
 
@@ -63,7 +64,7 @@
                   <form>
                       <input type="radio" id="Production" name = "foo" onclick="loadData('Production')"/>
                       <label for="Production">Production</label>
-                      <input type="radio" id="Revenue" name="foo"/>
+                      <input type="radio" id="Revenue" name="foo" onclick="loadData('Revenue')"/>
                       <label for="Revenue"> Revenue </label>
                   </form>
               </div>
@@ -159,19 +160,8 @@
 
 
 
-    var map = d3.select("#chart").append("svg:svg")
-        .attr("width", w)
-        .attr("height", h)
-//        .call(d3.behavior.zoom().on("zoom", redraw))
-        .call(initialize);
-    var india = map.append("svg:g")
-        .attr("id", "india");
+  
 
-    var color = d3.scaleSequential(d3.interpolateBlues);
-
-    var bar = d3.select("#resource-type-row-chart").append("svg:svg")
-                .attr("width", 580)
-                .attr("height", 300);
 
 
 
@@ -188,21 +178,12 @@
 
     d3.csv("FlavoursData.csv", function(data) {
 
-          var max  = 0;
-          var min = 0;
+          var maxProd  = 0;
+          var minProd = 0;
+
+          var maxRev = 0;
+          var minRev = 0;
           //Set input domain for color scale
-
-          var range = max - min;
-
-          //Create scale for the bars 
-          var xScale = d3.scaleBand()
-                         .domain(d3.range(data.length))
-                         .rangeRound([0,580])
-                         .paddingInner(0.05);
-
-          var yScale = d3.scaleLinear()
-                         .domain([0, max])
-                         .range([0,300]);
 
 
           Object.size = function(obj) {
@@ -282,8 +263,8 @@
                     json.features[j].date = {};
 
                     json.features[j].item[k] = dataItem;
-                    json.features[j].quantity[k] = dataQuantity;
-                    json.features[j].billamount[k] = dataBillAmount;
+                    json.features[j].quantity[k] = parseFloat(dataQuantity);
+                    json.features[j].billamount[k] = parseFloat(dataBillAmount);
                     json.features[j].date[k] = dataDate;
 
                   }
@@ -302,14 +283,37 @@
               }   
             }
 
-          max = getMaxProd(json);
-          min = getMinProd(json);
+          maxProd= getMaxProd(json);
+          minProd = getMinProd(json);
+
+
+
+
 
           if(action == "Production") {
              productionPlot();
           }
+          if(action == "Revenue") {
+            revenuePlot();
+          }
 
           function productionPlot() {
+
+          d3.selectAll("svg").remove();
+
+          var map = d3.select("#chart").append("svg:svg")
+        .attr("width", w)
+        .attr("height", h)
+      //        .call(d3.behavior.zoom().on("zoom", redraw))
+              .call(initialize);
+          var india = map.append("svg:g")
+              .attr("id", "india");
+
+          var color = d3.scaleSequential(d3.interpolateBlues);
+
+          var bar = d3.select("#resource-type-row-chart").append("svg:svg")
+                      .attr("width", 580)
+                      .attr("height", 300);
 
           india.selectAll("path")
               .data(json.features)
@@ -319,12 +323,15 @@
                 var value = getTotalProductQuantity(d);
                 if (value) {
                   //If value exists…
-                  return color(value/max);
+                  return color(value/maxProd);
                 } else {
                   //If value is undefined…
                   return "#fff";
                 }
-             });
+              })
+              .on("mouseover", function(d) {
+                  document.getElementById("total-donations-nd").innerHTML = getTotalProductQuantity(d);
+              })
 
           var len = json.features.length;
           var xScale = d3.scaleBand()
@@ -333,7 +340,7 @@
                          .paddingInner(0.05);
 
           var yScale = d3.scaleLinear()
-                         .domain([0, max])
+                         .domain([0, maxProd])
                          .range([0,300]);
 
 
@@ -353,7 +360,7 @@
                   return yScale(getTotalProductQuantity(d));
              })
              .attr("fill", function(d) {
-                  return color(getTotalProductQuantity(d)/max) ;
+                  return color(getTotalProductQuantity(d)/maxProd) ;
              });
 
 
@@ -361,22 +368,51 @@
 
 
             // Function for creating the Revenue Plots 
-            function productionPlot() {
+          function revenuePlot() {
+
+            d3.selectAll("svg").remove();
+
+            var map = d3.select("#chart").append("svg:svg")
+        .attr("width", w)
+        .attr("height", h)
+      //        .call(d3.behavior.zoom().on("zoom", redraw))
+              .call(initialize);
+          var india = map.append("svg:g")
+              .attr("id", "india");
+
+          var color = d3.scaleSequential(d3.interpolateBlues);
+
+          var bar = d3.select("#resource-type-row-chart").append("svg:svg")
+                      .attr("width", 580)
+                      .attr("height", 300);
+
+
+            console.log("here");
+
+            maxRev = getMaxRev(json);
+            minRev= getMinRev(json);
+            barMap = d3.map();
 
             india.selectAll("path")
                 .data(json.features)
                 .enter().append("path")
                 .attr("d", path)
                 .style("fill", function(d) {
-                  var value = getTotalProductQuantity(d);
+                  var value = getTotalRevenue(d);
                   if (value) {
+                    barMap.set(d.id,getTotalRevenue(d));
                     //If value exists…
-                    return color(value/max);
+                    return color(value/maxRev);
                   } else {
                     //If value is undefined…
                     return "#fff";
                   }
-               });
+                })
+                .on("mouseover", function(d) {
+                      document.getElementById("total-donations-nd").innerHTML = getTotalRevenue(d);
+                });
+
+            console.log(barMap);
 
             var len = json.features.length;
             var xScale = d3.scaleBand()
@@ -385,10 +421,10 @@
                            .paddingInner(0.05);
 
             var yScale = d3.scaleLinear()
-                           .domain([0, max])
+                           .domain([0, maxRev])
                            .range([0,300]);
 
-
+            console.log(barMap.get('Gujarat'));
 
             bar.selectAll("rect")
                .data(json.features)
@@ -398,18 +434,21 @@
                     return xScale(i);
                })
                .attr("y", function(d) {
-                    return 300 - yScale(getTotalProductQuantity(d));
+                    console.log(d.value);
+                    return 300 - yScale(d.value);
                })
                .attr("width", xScale.bandwidth())
                .attr("height", function(d) {
-                    return yScale(getTotalProductQuantity(d));
+                    return yScale(d.value);
                })
                .attr("fill", function(d) {
-                    return color(getTotalProductQuantity(d)/max) ;
+                    return color(d.value/maxRev) ;
                });
 
 
               }
+
+
 
 
 
@@ -427,10 +466,26 @@
                   return 0.0;
             }
             else {
-              var sum = 0;
+              var sum = 0.0;
               var max = 0;
               for (var i = 0; i < Object.size(d.item); i++) {
-                    sum = sum + d.billamount[i];
+                    sum = sum + parseFloat(d.quantity[i]);
+              }
+              return sum;
+            }
+          }
+
+
+          // Get the Total revenue 
+          function getTotalRevenue(d) {
+            if (!d.item) {
+                  return 0.0;
+            }
+            else {
+              var sum = 0.0;
+              var max = 0;
+              for (var i = 0; i < Object.size(d.item); i++) {
+                    sum = sum + parseFloat(d.billamount[i]);
               }
               return sum;
             }
@@ -449,8 +504,28 @@
           function getMinProd(json) {
             var min = 0
             for(var i = 0; i < json.features.length; i ++) {
-                  if(getTotalProductQuantity(json.features[i]) < max) {
+                  if(getTotalProductQuantity(json.features[i]) < maxProd) {
                       min = getTotalProductQuantity(json.features[i]);
+                  }
+            }
+            return min;
+          }
+
+          function getMaxRev(json) {
+            var max = 0;
+            for(var i = 0; i < json.features.length; i ++) {
+                  if(getTotalRevenue(json.features[i]) > max) {
+                      max = getTotalRevenue(json.features[i]);
+                  }
+            }
+            return max;
+          }
+
+          function getMinRev(json) {
+            var min = 0
+            for(var i = 0; i < json.features.length; i ++) {
+                  if(getTotalRevenue(json.features[i]) < maxRev) {
+                      min = getTotalRevenue(json.features[i]);
                   }
             }
             return min;

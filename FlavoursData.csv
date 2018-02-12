@@ -1,0 +1,37 @@
+customer_id,order_id,item,price,quantity,bill_amount,date,state
+AAA,123,Mango Pickle,20,2,40,03/14/17,Maharashtra
+AAA,123,Lemon Pickle,30,3,90,03/14/17,Maharashtra
+AAA,123,Orange Barfi,100,5,500,03/14/17,Maharashtra
+AAB,124,Chicken Pickle,120,4,480,03/15/17,Uttar Pradesh
+AAB,124,Beef Stick Pickle,150,2,300,03/15/17,Uttar Pradesh
+AAC,125,Rossogolla,180,10,1800,03/15/17,Punjab
+AAA,123,Mango Pickle,20,4,80,03/15/17,Maharashtra
+AAC,125,Green Chilli Pickle,80,2,160,03/15/17,Punjab
+AAD,126,Karachi Biscuit ,200,3,600,03/15/17,Madhya Pradesh
+AAD,126,Banana Chips,172,2,344,03/15/17,Madhya Pradesh
+AAE,127,Shenga Chutney,107,3,321,03/15/17,Maharashtra
+AAE,127,Ghee Cake,190,10,1900,03/15/17,Maharashtra
+AAF,128,Mix Fruit Slice,149,4,596,03/16/17,Maharashtra
+AAF,128,Dry Petha,172,3,516,03/16/17,Maharashtra
+AAG,129,Chandrakala,127,4,508,03/16/17,Maharashtra
+AAG,129,Guava Cheese,110,10,1100,03/16/17,Maharashtra
+AAH,130,Dry Petha,172,15,2580,03/16/17,Gujarat
+AAH,130,Khakhra,80,20,1600,03/16/17,Gujarat
+AAB,124,Chicken Pickle,120,4,480,03/16/17,Uttar Pradesh
+AAC,125,Rossogolla,180,10,1800,03/16/17,Punjab
+AAI,131,Bikaneri Bhujia,160,12,1920,03/16/17,Gujarat
+AAJ,132,Kunju Jam Rolls,260,24,6240,03/17/17,Gujarat
+AAK,133,Bebinca,275,10,2750,03/17/17,Maharashtra
+AAL,133,Dry Petha,172,10,1720,03/18/17,Karnataka
+AAL,133,Flax Seeds,186,20,3720,03/18/17,Karnataka
+AAM,134,Sambar Powder,155,10,1550,03/18/17,Karnataka
+AAM,134,Idli Mix,145,20,2900,03/18/17,Karnataka
+AAA,123,Mango Pickle,20,2,40,03/18/17,Maharashtra
+AAA,123,Lemon Pickle,30,3,90,03/18/17,Maharashtra
+AAA,123,Orange Barfi,100,5,500,03/18/17,Maharashtra
+AAB,124,Chicken Pickle,120,4,480,03/18/17,Uttar Pradesh
+AAB,124,Beef Stick Pickle,150,2,300,03/18/17,Uttar Pradesh
+AAC,125,Rossogolla,180,10,1800,03/18/17,Punjab
+AAC,125,Green Chilli Pickle,80,2,160,03/18/17,Punjab
+AAD,126,Karachi Biscuit ,200,3,600,03/18/17,Madhya Pradesh
+AAD,126,Banana Chips,172,2,344,03/18/17,Madhya Pradesh
