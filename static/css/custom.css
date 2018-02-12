@@ -10,3 +10,25 @@
     fill: black;
     font-size: 12px;
 }
+
+.test {
+	padding-top: 100px;
+}
+
+#time-chart label {
+  position: relative;
+  height: 100px;
+  width: 5px;
+  margin-top: 50px;
+  margin-left: -35px; 
+  text-align: left;
+  /*transform: rotate(-45deg);*/
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+
+}
+
+.space {
+    padding-top: 100px;
+   }
