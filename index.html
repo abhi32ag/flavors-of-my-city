@@ -66,13 +66,16 @@
       <div class="col-sm-12">
         <div class="chart-wrapper">
               <div class="chart-title">
-                  Options to chose data
+                  Filters
+              </div>
+                  <div class="chart-stage">
                   <form>
                       <input type="radio" id="Production" name = "foo" onclick="type1('Production')"/>
                       <label for="Production">Production</label>
                       <input type="radio" id="Revenue" name="foo" onclick="type1('Revenue')"/>
                       <label for="Revenue"> Revenue </label>
                   </form>
+
               </div>
         </div>
       </div>
@@ -84,7 +87,7 @@
           <div class="col-sm-12">
             <div class="chart-wrapper">
               <div class="chart-title">
-                Number of Flavor Box
+                Timeline
               </div>
               <div class="chart-stage">
                 <div id="time-chart">
@@ -100,7 +103,7 @@
           <div class="col-sm-6">
             <div class="chart-wrapper">
               <div class="chart-title">
-                Type of Flavors
+                Distribution by State
               </div>
               <div class="chart-stage">
                 <div id="resource-type-row-chart"></div>
@@ -125,7 +128,7 @@
       </div>
       <!-- Map -->
 
-      <!-- Metric 1 -->
+      <!-- Metric 1 
       <div class="col-sm-3">
         <div class="chart-wrapper">
           <div class="chart-title">
@@ -136,13 +139,13 @@
           </div>
         </div>
       </div>
-      <!-- Metric 1 -->
+      Metric 1 -->
 
       <!-- Metric 2 -->
       <div class="col-sm-3">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Total Revenue in USD
+            Total Revenue in Rupees
           </div>
           <div class="chart-stage">
             <div id="total-donations-nd"></div>
@@ -163,6 +166,8 @@
     var timeline;
     var option;
     function type1(value) {
+
+
           option = value;
           if (timeline) {
               loadData(option,timeline);
@@ -187,8 +192,8 @@
 
          // set default variables
        var years = [
-                    "2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016",
-                    "2017"
+                    "2014","2015","2016",
+                    "2017","2018"
                     ]
 
          //Slider min max will depend on the no of ordinal elements in years or products
@@ -196,7 +201,7 @@
         $("#time-chart").slider({
             value: 1,
             min: 1,
-            max: 13,
+            max: 5,
             step: 1
         })
         .each(function() {
@@ -204,7 +209,7 @@
             var vals = opt.max - opt.min;
 
             for (var i = 0; i <= vals; i++) {
-                var el = $('<label>' + years[i] + '</label>').css('left', (i / vals * 155) + '%');
+                var el = $('<label>' + years[i] + '</label>').css('left', 5 +(i / vals * 115) + '%');
                 $("#time-chart").append(el);
             }
         });
@@ -226,8 +231,9 @@
     })
 
 
-
-
+    var offset = 10;
+    var count_p = 0;
+    var count_r = 0;
     var w = 580;
     var h = 600;
     var padding = 40;
@@ -237,9 +243,25 @@
     var t = proj.translate(); // the projection's default translation
     var s = proj.scale() // the projection's default scale
 
+    var map = d3.select("#chart").append("svg:svg")
+          .attr("width", w)
+          .attr("height", h)
+        //        .call(d3.behavior.zoom().on("zoom", redraw))
+                .call(initialize);
+          var india = map.append("svg:g")
+                .attr("id", "india");
 
 
-  
+    var bar = d3.select("#resource-type-row-chart").append("svg:svg")
+                        .attr("width", 580)
+                        .attr("height", 375);
+
+    xAxis = d3.axisBottom();
+                      
+
+
+            yAxis = d3.axisLeft();
+              
 
 
 
@@ -253,9 +275,11 @@
 
 
     // Load in wealth json 
-    function loadData(action = 'Production',year = '2017') {
+    function loadData(action = 'Production',year = '2014') {
 
-    d3.csv("FlavoursData.csv", function(data) {
+    d3.csv("flavoursData_updtd.csv", function(data) {
+
+
           data = data.filter(function(d) {
                 if (d['date'] == year) {
                   return d;
@@ -369,7 +393,10 @@
 
           maxProd= getMaxProd(json);
           minProd = getMinProd(json);
+          maxRev = getMaxRev(json);
+          minRev = getMinRev(json);
 
+          
 
 
 
@@ -382,27 +409,24 @@
           }
 
           function productionPlot() {
+
+
             barMap = d3.map();
 
-            d3.selectAll("svg").remove();
-
-            var map = d3.select("#chart").append("svg:svg")
-          .attr("width", w)
-          .attr("height", h)
-        //        .call(d3.behavior.zoom().on("zoom", redraw))
-                .call(initialize);
-            var india = map.append("svg:g")
-                .attr("id", "india");
+            
 
             var color = d3.scaleSequential(d3.interpolateBlues);
 
-            var bar = d3.select("#resource-type-row-chart").append("svg:svg")
-                        .attr("width", 580)
-                        .attr("height", 375);
-
             india.selectAll("path")
-                .data(json.features)
-                .enter().append("path")
+                  .remove();
+
+            var appending = india.selectAll("path")
+                                .data(json.features)
+
+                                //add new elements
+                                .enter().append("path");
+
+            appending
                 .attr("d", path)
                 .style("fill", function(d) {
                   var value = getTotalProductQuantity(d);
@@ -420,10 +444,53 @@
                       .append("title")
                       .text("State: " + d.id + '\n' + 'Product Quantity : ' + getTotalProductQuantity(d));
 
+                    d3.select(this)
+                      .style("fill", function(d) { 
+                        return 'orange';}
+                        );
+
                     document.getElementById("total-donations-nd").innerHTML = getTotalProductQuantity(d);
 
                     filterS(d.id);
                 })
+                .on("mouseout", function(d) {
+                    d3.select(this)
+                    .style("fill", function(d) {
+                      var value = getTotalProductQuantity(d);
+                      if (value) {
+                        barMap.set(d.id, value);
+                        //If value exists…
+                        return color(value/maxProd);
+                      } else {
+                        //If value is undefined…
+                        return "#fff";
+                      }
+                    })
+                   
+                })
+                .merge(appending)
+                .transition()
+                      .duration(200)
+                      .ease(d3.easeElasticOut)
+                      .attr("d", path)
+                      .style("fill", function(d) {
+                        var value = getTotalProductQuantity(d);
+                        if (value) {
+                          barMap.set(d.id, value);
+                          //If value exists…
+                          return color(value/maxProd);
+                        } else {
+                          //If value is undefined…
+                          return "#fff";
+                        }
+                      });
+                      
+
+            
+
+
+            
+
 
             var len = json.features.length;
             var xScale = d3.scaleBand()
@@ -437,10 +504,34 @@
 
 
 
-            bar.selectAll("rect")
-               .data(barMap.entries())
-               .enter()
+            var bars = bar.selectAll("rect")
+                          .data(barMap.entries());
+
+            //Enter 
+            bars.exit()
+                .transition()
+                .duration(50)
+                .remove();
+
+            bars.enter()
                .append("rect")
+               .attr("x", function(d, i) {
+                    return xScale(i);
+               })
+               .attr("y", function(d) {
+                    return yScale(d.value);
+               })
+               .attr("width", xScale.bandwidth())
+               .attr("height", function(d) {
+                    return yScale(0) - yScale(d.value);
+               })
+               .attr("fill", function(d) {
+                    return color(d.value/maxProd) ;
+               })
+               .merge(bars)
+               .transition()
+               .ease(d3.easeElasticOut)
+               .duration(1000)
                .attr("x", function(d, i) {
                     return xScale(i);
                })
@@ -455,6 +546,7 @@
                     return color(d.value/maxProd) ;
                });
 
+
             ticks_len = Object.size(barMap);
             ticks = []
             ticks_labels = []
@@ -463,31 +555,57 @@
             }
             ticks_labels = barMap.keys();
 
-
-            xAxis = d3.axisBottom()
-                      .scale(xScale)
+            xAxis.scale(xScale)
                       .tickValues(ticks)
                       .tickFormat(function(d,i) { return ticks_labels[i]});
 
-
-            yAxis = d3.axisLeft()
-              .scale(yScale)
+            yAxis.scale(yScale)
               .ticks(10);
+            
+            if (count_p < 1) {
 
-            bar.append("g")
-                .attr("class","axis")
-                .attr("transform", "translate(0," + ( 300 - axisPad ) + ")")
-                .call(xAxis)
-                .selectAll("text")
-                  .style("text-anchor", "end")
-                  .attr("dx", -8)
-                  .attr("dy", 8)
-                  .attr("transform", "translate(0,0) rotate(-45)");
 
-            bar.append("g")
-                .attr("class","axis")
-                .attr("transform", "translate(" + padding + ",0)")
-                .call(yAxis);
+
+              bar.append("g")
+                  .attr("class","x axis")
+                  .attr("transform", "translate(0," + ( 300 - axisPad ) + ")")
+                  .call(xAxis)
+                  .selectAll("text")
+                    .style("text-anchor", "end")
+                    .attr("dx", -8)
+                    .attr("dy", 8)
+                    .attr("transform", "translate(0,0) rotate(-45)");
+
+              bar.append("g")
+                  .attr("class","y axis")
+                  .attr("transform", "translate(" + padding + ",0)")
+                  .call(yAxis);
+            }
+
+            count_p += 1;
+
+            if (count_p > 1) {
+
+              xScale.rangeRound([padding, 580]);
+
+              bar.select(".x")
+                  .transition()
+                  .duration(500)
+                  .ease(d3.easeLinear)
+                  .call(xAxis)
+                  .selectAll("text")
+                    .style("text-anchor", "end")
+                    .attr("dx", -8)
+                    .attr("dy", 8)
+                    .attr("transform", "translate(0,0) rotate(-45)")
+                    ;
+
+              bar.select(".y.axis")
+                  .transition()
+                  .duration(500)
+                  .call(yAxis)
+                  .attr("transform", "translate(" + (padding) + ",0)");
+            }
 
 
             function filterS(state) {
@@ -513,36 +631,30 @@
             // Function for creating the Revenue Plots 
           function revenuePlot() {
 
-            d3.selectAll("svg").remove();
+          
 
-            var map = d3.select("#chart").append("svg:svg")
-        .attr("width", w)
-        .attr("height", h)
-      //        .call(d3.behavior.zoom().on("zoom", redraw))
-              .call(initialize);
-          var india = map.append("svg:g")
-              .attr("id", "india");
+
+
+          barMap2 = d3.map();
+
+          india.selectAll("path")
+                  .remove();
 
           var color = d3.scaleSequential(d3.interpolateBlues);
 
-          var bar = d3.select("#resource-type-row-chart").append("svg:svg")
-                      .attr("width", 580)
-                      .attr("height", 375);
+          var appending = india.selectAll("path")
+                                .data(json.features)
+
+                                //add new elements
+                                .enter().append("path");
 
 
-
-            maxRev = getMaxRev(json);
-            minRev= getMinRev(json);
-            barMap = d3.map();
-
-            india.selectAll("path")
-                .data(json.features)
-                .enter().append("path")
+          appending
                 .attr("d", path)
                 .style("fill", function(d) {
                   var value = getTotalRevenue(d);
                   if (value) {
-                    barMap.set(d.id,getTotalRevenue(d));
+                    barMap2.set(d.id, value);
                     //If value exists…
                     return color(value/maxRev);
                   } else {
@@ -556,36 +668,99 @@
                       .append("title")
                       .text("State: " +d.id + '\n' + "Total Revenue by State: " + getTotalRevenue(d));
 
+                      d3.select(this)
+                      .style("fill", function(d) { 
+                        return 'orange';}
+                        );
+
                       document.getElementById("total-donations-nd").innerHTML = getTotalRevenue(d);
                       filterS(d.id)
-                });
+                })
+                .on("mouseout", function(d) {
+                    d3.select(this)
+                    .style("fill", function(d) {
+                      var value = getTotalRevenue(d);
+                      if (value) {
+                        barMap2.set(d.id, value);
+                        //If value exists…
+                        return color(value/maxRev);
+                      } else {
+                        //If value is undefined…
+                        return "#fff";
+                      }
+                    })
+                   
+                })
+                .merge(appending)
+                .transition()
+                .duration(500)
+                .attr("d", path)
+                      .style("fill", function(d) {
+                        var value = getTotalRevenue(d);
+                        if (value) {
+                          barMap2.set(d.id, value);
+                          //If value exists…
+                          return color(value/maxRev);
+                        } else {
+                          //If value is undefined…
+                          return "#fff";
+                        }
+                      });
 
-            ticks_len = Object.size(barMap);
-            ticks = []
-            ticks_labels = []
-            for ( var i = 0; i < ticks_len; i ++ ){
-                  ticks.push(i);
-            }
-            ticks_labels = barMap.keys();
+            
 
 
 
             var len = json.features.length;
             var xScale = d3.scaleBand()
                            .domain(d3.range(json.features.length))
-                           .rangeRound([padding,580])
+                           .rangeRound([padding + offset,580])
                            .paddingInner(0.05);
 
             var yScale = d3.scaleLinear()
                            .domain([0, maxRev])
                            .range([300 - axisPad,5]);
 
+            // Creating the tick labels 
 
+            ticks_len = Object.size(barMap2);
+            ticks = []
+            ticks_labels = []
+            for ( var i = 0; i < ticks_len; i ++ ){
+                  ticks.push(i);
+            }
+            ticks_labels = barMap2.keys();
 
-            bar.selectAll("rect")
-               .data(barMap.entries())
-               .enter()
+            console.log(barMap2)
+
+            var bars2 = bar.selectAll("rect")
+                          .data(barMap2.entries());
+
+            bars2.exit()
+                .transition()
+                .duration(50)
+                .remove();
+
+            bars2.enter()
                .append("rect")
+               .attr("x", function(d, i) {
+                    return xScale(i);
+               })
+               .attr("y", function(d) {
+
+                    return yScale(d.value);
+               })
+               .attr("width", xScale.bandwidth())
+               .attr("height", function(d) {
+                    return yScale(0) - yScale(d.value);
+               })
+               .attr("fill", function(d) {
+                    return color(d.value/maxRev) ;
+               })
+               .merge(bars2)
+               .transition()
+               .ease(d3.easeElasticOut)
+               .duration(1000)
                .attr("x", function(d, i) {
                     return xScale(i);
                })
@@ -601,15 +776,16 @@
                     return color(d.value/maxRev) ;
                });
 
-            xAxis = d3.axisBottom()
-                      .scale(xScale)
+
+            xAxis.scale(xScale)
                       .tickValues(ticks)
                       .tickFormat(function(d,i) { return ticks_labels[i]});
 
 
-            yAxis = d3.axisLeft()
-              .scale(yScale)
+            yAxis.scale(yScale)
               .ticks(10);
+
+            if (count_r < 1 & count_p < 1) {
 
             bar.append("g")
                 .attr("class","axis")
@@ -625,6 +801,30 @@
                 .attr("class","axis")
                 .attr("transform", "translate(" + padding + ",0)")
                 .call(yAxis);
+
+            }
+
+            count_r += 1;
+
+            if (count_r > 1  | count_p > 1) {
+                bar.select(".x")
+                  .transition()
+                  .duration(500)
+                  .ease(d3.easeLinear)
+                  .call(xAxis)
+                  .selectAll("text")
+                    .style("text-anchor", "end")
+                    .attr("dx", -8)
+                    .attr("dy", 8)
+                    .attr("transform", "translate(0,0) rotate(-45)")
+                    ;
+
+              bar.select(".y.axis")
+                  .transition()
+                  .duration(500)
+                  .call(yAxis)
+                  .attr("transform", "translate(" + (padding + offset) + ",0)");
+            }
 
 
 
