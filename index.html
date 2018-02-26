@@ -66,12 +66,12 @@
       <div class="col-sm-12">
         <div class="chart-wrapper">
               <div class="chart-title">
-                  Sales Filter
+                  Filters
               </div>
                   <div class="chart-stage">
                   <form>
                       <input type="radio" id="Production" name = "foo" onclick="type1('Production')"/>
-                      <label for="Production">Volume</label>
+                      <label for="Production">Production</label>
                       <input type="radio" id="Revenue" name="foo" onclick="type1('Revenue')"/>
                       <label for="Revenue"> Revenue </label>
                   </form>
@@ -255,65 +255,6 @@
     var bar = d3.select("#resource-type-row-chart").append("svg:svg")
                         .attr("width", 580)
                         .attr("height", 375);
-
-    var defs = india.append("defs");
-
-    var linearGradient = defs.append("linearGradient")
-                              .attr("id", "linear-gradient");
-
-    var testCol = d3.scaleSequential(d3.interpolateBlues);
-
-    linearGradient.attr("x1", "0%")
-                  .attr("y1", "100%")
-                  .attr("x2", "0%")
-                  .attr("y2", "0%");
-
-    linearGradient.selectAll("stop")
-                  .data([
-                  {offset: "0%", color: testCol(0)}, 
-                  {offset: "12.5%", color: testCol(0.125)},  
-                  {offset: "25%", color: testCol(0.25)}, 
-                  {offset: "37.5%", color: testCol(0.375)}, 
-                  {offset: "50%", color: testCol(0.5)}, 
-                  {offset: "62.5%", color: testCol(0.625)}, 
-                  {offset: "75%", color: testCol(0.75)},      
-                  {offset: "87.5%", color: testCol(0.875)},        
-                  {offset: "100%", color: testCol(1)}  
-                  ])
-                  .enter().append("stop")
-                  .attr("offset", function(d) { return d.offset; })   
-                  .attr("stop-color", function(d) { return d.color; });
-
-
-
-
-    var legend = india.append("rect")
-                      .attr("width", 20)
-                      .attr("height", 200)
-                      .attr("x", 460)
-                      .attr("y", 350)
-                      .style("fill", "url(#linear-gradient)")
-
-    var text = india.append("text")
-                    .style("text-anchor","end")
-                    .attr("font-family","Times New Roman")
-                    .attr("font-weight", "normal")
-                    .attr("stroke-width",0)
-                    .attr("font-size", "13px")
-                    .attr("fill", "black")
-                    .attr("x", 510)
-                    .attr("y", 365)
-                    .text("High");
-
-               india.append("text")
-                    .style("text-anchor", "end")
-                    .attr("font-family","Times New Roman")
-                    .attr("stroke-width",0)
-                    .attr("font-size", "13px")
-                    .attr("fill", "black")
-                    .attr("x", 510)
-                    .attr("y", 545)
-                    .text("Low");
 
     xAxis = d3.axisBottom();
                       
@@ -666,9 +607,6 @@
                   .attr("transform", "translate(" + (padding) + ",0)");
             }
 
-            // Creating legend
-
-
 
             function filterS(state) {
                 bar.selectAll("rect")
@@ -868,7 +806,7 @@
 
             count_r += 1;
 
-            if (count_r > 1  | count_p >= 1) {
+            if (count_r > 1  | count_p > 1) {
                 bar.select(".x")
                   .transition()
                   .duration(500)
@@ -887,10 +825,6 @@
                   .call(yAxis)
                   .attr("transform", "translate(" + (padding + offset) + ",0)");
             }
-
-
-            // Creating legend
-
 
 
 
