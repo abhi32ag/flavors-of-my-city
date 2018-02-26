@@ -207,21 +207,21 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 206,18,Product 427,216,Chennai,8,1728,Tamil Nadu,2014
 207,18,Product 173,84,Chennai,9,756,Tamil Nadu,2014
 208,18,Product 456,135,Chennai,4,540,Tamil Nadu,2014
-209,19,Product 392,82,Thrissur,7,574,Kerela,2014
-210,19,Product 270,289,Thrissur,10,2890,Kerela,2014
-211,19,Product 92,108,Thrissur,3,324,Kerela,2014
-212,19,Product 380,210,Thrissur,8,1680,Kerela,2014
-213,19,Product 140,232,Thrissur,3,696,Kerela,2014
-214,19,Product 396,291,Thrissur,4,1164,Kerela,2014
-215,19,Product 19,217,Thrissur,2,434,Kerela,2014
-216,19,Product 120,68,Thrissur,10,680,Kerela,2014
-217,19,Product 87,90,Thrissur,8,720,Kerela,2014
-218,19,Product 299,83,Thrissur,8,664,Kerela,2014
-219,19,Product 178,165,Thrissur,7,1155,Kerela,2014
-220,19,Product 406,72,Thrissur,2,144,Kerela,2014
-221,19,Product 170,83,Thrissur,2,166,Kerela,2014
-222,19,Product 36,64,Thrissur,9,576,Kerela,2014
-223,19,Product 9,69,Thrissur,3,207,Kerela,2014
+209,19,Product 392,82,Thrissur,7,574,Kerala,2014
+210,19,Product 270,289,Thrissur,10,2890,Kerala,2014
+211,19,Product 92,108,Thrissur,3,324,Kerala,2014
+212,19,Product 380,210,Thrissur,8,1680,Kerala,2014
+213,19,Product 140,232,Thrissur,3,696,Kerala,2014
+214,19,Product 396,291,Thrissur,4,1164,Kerala,2014
+215,19,Product 19,217,Thrissur,2,434,Kerala,2014
+216,19,Product 120,68,Thrissur,10,680,Kerala,2014
+217,19,Product 87,90,Thrissur,8,720,Kerala,2014
+218,19,Product 299,83,Thrissur,8,664,Kerala,2014
+219,19,Product 178,165,Thrissur,7,1155,Kerala,2014
+220,19,Product 406,72,Thrissur,2,144,Kerala,2014
+221,19,Product 170,83,Thrissur,2,166,Kerala,2014
+222,19,Product 36,64,Thrissur,9,576,Kerala,2014
+223,19,Product 9,69,Thrissur,3,207,Kerala,2014
 224,20,Product 377,275,Bijapur,10,2750,Karnataka,2014
 225,20,Product 382,223,Bijapur,9,2007,Karnataka,2014
 226,20,Product 500,227,Bijapur,4,908,Karnataka,2014
@@ -325,19 +325,19 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 324,28,Product 416,261,Delhi,2,522,New Delhi,2015
 325,28,Product 236,72,Delhi,6,432,New Delhi,2015
 326,28,Product 290,118,Delhi,5,590,New Delhi,2015
-327,29,Product 260,167,Puri,1,167,Odhisha,2015
-328,29,Product 13,210,Puri,3,630,Odhisha,2015
-329,29,Product 70,287,Puri,10,2870,Odhisha,2015
-330,29,Product 488,250,Puri,3,750,Odhisha,2015
-331,29,Product 63,255,Puri,1,255,Odhisha,2015
-332,29,Product 252,205,Puri,9,1845,Odhisha,2015
-333,29,Product 231,274,Puri,9,2466,Odhisha,2015
-334,29,Product 219,227,Puri,8,1816,Odhisha,2015
-335,29,Product 197,272,Puri,7,1904,Odhisha,2015
-336,29,Product 269,123,Puri,5,615,Odhisha,2015
-337,29,Product 196,67,Puri,4,268,Odhisha,2015
-338,29,Product 173,84,Puri,1,84,Odhisha,2015
-339,29,Product 238,225,Puri,9,2025,Odhisha,2015
+327,29,Product 260,167,Puri,1,167,Orissa,2015
+328,29,Product 13,210,Puri,3,630,Orissa,2015
+329,29,Product 70,287,Puri,10,2870,Orissa,2015
+330,29,Product 488,250,Puri,3,750,Orissa,2015
+331,29,Product 63,255,Puri,1,255,Orissa,2015
+332,29,Product 252,205,Puri,9,1845,Orissa,2015
+333,29,Product 231,274,Puri,9,2466,Orissa,2015
+334,29,Product 219,227,Puri,8,1816,Orissa,2015
+335,29,Product 197,272,Puri,7,1904,Orissa,2015
+336,29,Product 269,123,Puri,5,615,Orissa,2015
+337,29,Product 196,67,Puri,4,268,Orissa,2015
+338,29,Product 173,84,Puri,1,84,Orissa,2015
+339,29,Product 238,225,Puri,9,2025,Orissa,2015
 340,30,Product 227,108,Navi Mumbai,1,108,Maharashtra,2015
 341,30,Product 77,178,Navi Mumbai,9,1602,Maharashtra,2015
 342,30,Product 68,271,Navi Mumbai,7,1897,Maharashtra,2015
@@ -383,30 +383,30 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 382,32,Product 218,254,Nashik,9,2286,Maharashtra,2015
 383,32,Product 485,295,Nashik,8,2360,Maharashtra,2015
 384,32,Product 81,109,Nashik,2,218,Maharashtra,2015
-385,33,Product 294,55,Raipur,7,385,Chattisgarh,2015
-386,33,Product 166,60,Raipur,7,420,Chattisgarh,2015
-387,33,Product 135,164,Raipur,10,1640,Chattisgarh,2015
-388,33,Product 435,218,Raipur,7,1526,Chattisgarh,2015
-389,33,Product 254,150,Raipur,8,1200,Chattisgarh,2015
-390,33,Product 470,291,Raipur,7,2037,Chattisgarh,2015
-391,33,Product 212,70,Raipur,10,700,Chattisgarh,2015
-392,33,Product 341,279,Raipur,10,2790,Chattisgarh,2015
-393,33,Product 65,146,Raipur,6,876,Chattisgarh,2015
-394,34,Product 80,228,Calicut,10,2280,Kerela,2015
-395,34,Product 206,205,Calicut,6,1230,Kerela,2015
-396,34,Product 270,289,Calicut,8,2312,Kerela,2015
-397,34,Product 252,205,Calicut,6,1230,Kerela,2015
-398,34,Product 136,280,Calicut,8,2240,Kerela,2015
-399,34,Product 372,132,Calicut,3,396,Kerela,2015
-400,34,Product 293,199,Calicut,7,1393,Kerela,2015
-401,34,Product 247,120,Calicut,4,480,Kerela,2015
-402,34,Product 8,86,Calicut,3,258,Kerela,2015
-403,34,Product 363,279,Calicut,2,558,Kerela,2015
-404,34,Product 54,291,Calicut,8,2328,Kerela,2015
-405,34,Product 152,85,Calicut,7,595,Kerela,2015
-406,34,Product 85,63,Calicut,5,315,Kerela,2015
-407,34,Product 236,72,Calicut,10,720,Kerela,2015
-408,34,Product 131,141,Calicut,6,846,Kerela,2015
+385,33,Product 294,55,Raipur,7,385,Chhattisgarh,2015
+386,33,Product 166,60,Raipur,7,420,Chhattisgarh,2015
+387,33,Product 135,164,Raipur,10,1640,Chhattisgarh,2015
+388,33,Product 435,218,Raipur,7,1526,Chhattisgarh,2015
+389,33,Product 254,150,Raipur,8,1200,Chhattisgarh,2015
+390,33,Product 470,291,Raipur,7,2037,Chhattisgarh,2015
+391,33,Product 212,70,Raipur,10,700,Chhattisgarh,2015
+392,33,Product 341,279,Raipur,10,2790,Chhattisgarh,2015
+393,33,Product 65,146,Raipur,6,876,Chhattisgarh,2015
+394,34,Product 80,228,Calicut,10,2280,Kerala,2015
+395,34,Product 206,205,Calicut,6,1230,Kerala,2015
+396,34,Product 270,289,Calicut,8,2312,Kerala,2015
+397,34,Product 252,205,Calicut,6,1230,Kerala,2015
+398,34,Product 136,280,Calicut,8,2240,Kerala,2015
+399,34,Product 372,132,Calicut,3,396,Kerala,2015
+400,34,Product 293,199,Calicut,7,1393,Kerala,2015
+401,34,Product 247,120,Calicut,4,480,Kerala,2015
+402,34,Product 8,86,Calicut,3,258,Kerala,2015
+403,34,Product 363,279,Calicut,2,558,Kerala,2015
+404,34,Product 54,291,Calicut,8,2328,Kerala,2015
+405,34,Product 152,85,Calicut,7,595,Kerala,2015
+406,34,Product 85,63,Calicut,5,315,Kerala,2015
+407,34,Product 236,72,Calicut,10,720,Kerala,2015
+408,34,Product 131,141,Calicut,6,846,Kerala,2015
 409,35,Product 335,104,Goregaon East Mumbai,1,104,Maharashtra,2015
 410,35,Product 49,137,Goregaon East Mumbai,7,959,Maharashtra,2015
 411,35,Product 33,137,Goregaon East Mumbai,9,1233,Maharashtra,2015
@@ -457,16 +457,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 456,39,Product 381,130,Thane West,6,780,Maharashtra,2015
 457,39,Product 236,72,Thane West,5,360,Maharashtra,2015
 458,39,Product 196,67,Thane West,1,67,Maharashtra,2015
-459,40,Product 15,238,Bhopal,4,952,Chattisgarh,2015
-460,40,Product 131,141,Bhopal,6,846,Chattisgarh,2015
-461,40,Product 127,211,Bhopal,9,1899,Chattisgarh,2015
-462,40,Product 250,208,Bhopal,8,1664,Chattisgarh,2015
-463,40,Product 485,295,Bhopal,1,295,Chattisgarh,2015
-464,40,Product 231,274,Bhopal,5,1370,Chattisgarh,2015
-465,40,Product 298,91,Bhopal,8,728,Chattisgarh,2015
-466,40,Product 359,245,Bhopal,2,490,Chattisgarh,2015
-467,40,Product 173,84,Bhopal,7,588,Chattisgarh,2015
-468,40,Product 32,197,Bhopal,1,197,Chattisgarh,2015
+459,40,Product 15,238,Bhopal,4,952,Chhattisgarh,2015
+460,40,Product 131,141,Bhopal,6,846,Chhattisgarh,2015
+461,40,Product 127,211,Bhopal,9,1899,Chhattisgarh,2015
+462,40,Product 250,208,Bhopal,8,1664,Chhattisgarh,2015
+463,40,Product 485,295,Bhopal,1,295,Chhattisgarh,2015
+464,40,Product 231,274,Bhopal,5,1370,Chhattisgarh,2015
+465,40,Product 298,91,Bhopal,8,728,Chhattisgarh,2015
+466,40,Product 359,245,Bhopal,2,490,Chhattisgarh,2015
+467,40,Product 173,84,Bhopal,7,588,Chhattisgarh,2015
+468,40,Product 32,197,Bhopal,1,197,Chhattisgarh,2015
 469,41,Product 381,130,Lucknow,1,130,Uttar Pradesh,2015
 470,41,Product 368,78,Lucknow,4,312,Uttar Pradesh,2015
 471,41,Product 145,270,Lucknow,3,810,Uttar Pradesh,2015
@@ -678,19 +678,19 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 677,56,Product 100,132,Wakad road,10,1320,Maharashtra,2015
 678,56,Product 236,72,Wakad road,2,144,Maharashtra,2015
 679,56,Product 266,135,Wakad road,4,540,Maharashtra,2015
-680,57,Product 118,119,Jaipur,9,1071,Rajashthan,2015
-681,57,Product 382,223,Jaipur,7,1561,Rajashthan,2015
-682,57,Product 192,88,Jaipur,10,880,Rajashthan,2015
-683,57,Product 431,245,Jaipur,7,1715,Rajashthan,2015
-684,57,Product 276,210,Jaipur,10,2100,Rajashthan,2015
-685,57,Product 217,59,Jaipur,3,177,Rajashthan,2015
-686,57,Product 389,240,Jaipur,3,720,Rajashthan,2015
-687,57,Product 409,77,Jaipur,1,77,Rajashthan,2015
-688,57,Product 227,108,Jaipur,3,324,Rajashthan,2015
-689,57,Product 272,201,Jaipur,7,1407,Rajashthan,2015
-690,57,Product 216,139,Jaipur,10,1390,Rajashthan,2015
-691,57,Product 173,84,Jaipur,3,252,Rajashthan,2015
-692,57,Product 311,266,Jaipur,1,266,Rajashthan,2015
+680,57,Product 118,119,Jaipur,9,1071,Rajasthan,2015
+681,57,Product 382,223,Jaipur,7,1561,Rajasthan,2015
+682,57,Product 192,88,Jaipur,10,880,Rajasthan,2015
+683,57,Product 431,245,Jaipur,7,1715,Rajasthan,2015
+684,57,Product 276,210,Jaipur,10,2100,Rajasthan,2015
+685,57,Product 217,59,Jaipur,3,177,Rajasthan,2015
+686,57,Product 389,240,Jaipur,3,720,Rajasthan,2015
+687,57,Product 409,77,Jaipur,1,77,Rajasthan,2015
+688,57,Product 227,108,Jaipur,3,324,Rajasthan,2015
+689,57,Product 272,201,Jaipur,7,1407,Rajasthan,2015
+690,57,Product 216,139,Jaipur,10,1390,Rajasthan,2015
+691,57,Product 173,84,Jaipur,3,252,Rajasthan,2015
+692,57,Product 311,266,Jaipur,1,266,Rajasthan,2015
 693,58,Product 373,165,Mulund east,1,165,Maharashtra,2015
 694,58,Product 296,165,Mulund east,6,990,Maharashtra,2015
 695,58,Product 227,108,Mulund east,1,108,Maharashtra,2015
@@ -708,18 +708,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 707,59,Product 457,267,Trichy,1,267,Tamil Nadu,2015
 708,59,Product 303,285,Trichy,1,285,Tamil Nadu,2015
 709,59,Product 93,206,Trichy,1,206,Tamil Nadu,2015
-710,59,Product 485,295,Trichy,6,1770,Kerela,2015
-711,60,Product 143,268,Thiruvananthapuram,10,2680,Kerela,2015
-712,60,Product 372,132,Thiruvananthapuram,9,1188,Kerela,2015
-713,60,Product 23,278,Thiruvananthapuram,1,278,Kerela,2015
-714,60,Product 402,224,Thiruvananthapuram,3,672,Kerela,2015
-715,60,Product 486,217,Thiruvananthapuram,4,868,Kerela,2015
-716,60,Product 29,74,Thiruvananthapuram,3,222,Kerela,2015
-717,60,Product 391,126,Thiruvananthapuram,10,1260,Kerela,2015
-718,60,Product 410,296,Thiruvananthapuram,9,2664,Kerela,2015
-719,60,Product 400,117,Thiruvananthapuram,7,819,Kerela,2015
-720,60,Product 485,295,Thiruvananthapuram,8,2360,Kerela,2015
-721,60,Product 367,59,Thiruvananthapuram,4,236,Kerela,2015
+710,59,Product 485,295,Trichy,6,1770,Kerala,2015
+711,60,Product 143,268,Thiruvananthapuram,10,2680,Kerala,2015
+712,60,Product 372,132,Thiruvananthapuram,9,1188,Kerala,2015
+713,60,Product 23,278,Thiruvananthapuram,1,278,Kerala,2015
+714,60,Product 402,224,Thiruvananthapuram,3,672,Kerala,2015
+715,60,Product 486,217,Thiruvananthapuram,4,868,Kerala,2015
+716,60,Product 29,74,Thiruvananthapuram,3,222,Kerala,2015
+717,60,Product 391,126,Thiruvananthapuram,10,1260,Kerala,2015
+718,60,Product 410,296,Thiruvananthapuram,9,2664,Kerala,2015
+719,60,Product 400,117,Thiruvananthapuram,7,819,Kerala,2015
+720,60,Product 485,295,Thiruvananthapuram,8,2360,Kerala,2015
+721,60,Product 367,59,Thiruvananthapuram,4,236,Kerala,2015
 722,61,Product 493,240,Pune 07,10,2400,Maharashtra,2015
 723,61,Product 135,164,Pune 08,10,1640,Maharashtra,2015
 724,61,Product 52,275,Pune 09,3,825,Maharashtra,2015
@@ -809,17 +809,17 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 808,68,Product 299,83,Bengaluru,4,332,Karnataka,2015
 809,68,Product 173,84,Bengaluru,4,336,Karnataka,2015
 810,68,Product 108,291,Bengaluru,3,873,Karnataka,2015
-811,69,Product 159,260,BILASPUR,9,2340,Chattisgarh,2015
-812,69,Product 424,152,BILASPUR,6,912,Chattisgarh,2015
-813,69,Product 352,299,BILASPUR,3,897,Chattisgarh,2015
-814,69,Product 121,85,BILASPUR,10,850,Chattisgarh,2015
-815,69,Product 262,257,BILASPUR,1,257,Chattisgarh,2015
-816,69,Product 83,262,BILASPUR,5,1310,Chattisgarh,2015
-817,69,Product 237,193,BILASPUR,1,193,Chattisgarh,2015
-818,69,Product 441,153,BILASPUR,7,1071,Chattisgarh,2015
-819,69,Product 413,223,BILASPUR,7,1561,Chattisgarh,2015
-820,69,Product 36,64,BILASPUR,6,384,Chattisgarh,2015
-821,69,Product 212,70,BILASPUR,2,140,Chattisgarh,2015
+811,69,Product 159,260,BILASPUR,9,2340,Chhattisgarh,2015
+812,69,Product 424,152,BILASPUR,6,912,Chhattisgarh,2015
+813,69,Product 352,299,BILASPUR,3,897,Chhattisgarh,2015
+814,69,Product 121,85,BILASPUR,10,850,Chhattisgarh,2015
+815,69,Product 262,257,BILASPUR,1,257,Chhattisgarh,2015
+816,69,Product 83,262,BILASPUR,5,1310,Chhattisgarh,2015
+817,69,Product 237,193,BILASPUR,1,193,Chhattisgarh,2015
+818,69,Product 441,153,BILASPUR,7,1071,Chhattisgarh,2015
+819,69,Product 413,223,BILASPUR,7,1561,Chhattisgarh,2015
+820,69,Product 36,64,BILASPUR,6,384,Chhattisgarh,2015
+821,69,Product 212,70,BILASPUR,2,140,Chhattisgarh,2015
 822,70,Product 298,91,Wakad,7,637,Maharashtra,2015
 823,70,Product 393,258,Wakad,9,2322,Maharashtra,2015
 824,70,Product 132,100,Wakad,5,500,Maharashtra,2015
@@ -853,15 +853,15 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 852,72,Product 340,172,SURAT,1,172,Gujarat,2015
 853,72,Product 236,72,SURAT,6,432,Gujarat,2015
 854,72,Product 323,203,SURAT,1,203,Gujarat,2015
-855,73,Product 94,295,Bhilai,1,295,Chattisgarh,2015
-856,73,Product 184,86,Bhilai,7,602,Chattisgarh,2015
-857,73,Product 456,135,Bhilai,2,270,Chattisgarh,2015
-858,73,Product 410,296,Bhilai,6,1776,Chattisgarh,2015
-859,73,Product 437,214,Bhilai,2,428,Chattisgarh,2015
-860,73,Product 211,116,Bhilai,1,116,Chattisgarh,2015
-861,73,Product 4,103,Bhilai,6,618,Chattisgarh,2015
-862,73,Product 173,84,Bhilai,10,840,Chattisgarh,2015
-863,73,Product 15,238,Bhilai,8,1904,Chattisgarh,2015
+855,73,Product 94,295,Bhilai,1,295,Chhattisgarh,2015
+856,73,Product 184,86,Bhilai,7,602,Chhattisgarh,2015
+857,73,Product 456,135,Bhilai,2,270,Chhattisgarh,2015
+858,73,Product 410,296,Bhilai,6,1776,Chhattisgarh,2015
+859,73,Product 437,214,Bhilai,2,428,Chhattisgarh,2015
+860,73,Product 211,116,Bhilai,1,116,Chhattisgarh,2015
+861,73,Product 4,103,Bhilai,6,618,Chhattisgarh,2015
+862,73,Product 173,84,Bhilai,10,840,Chhattisgarh,2015
+863,73,Product 15,238,Bhilai,8,1904,Chhattisgarh,2015
 864,74,Product 221,191,Ghaziabad,2,382,Uttar Pradesh,2015
 865,74,Product 317,76,Ghaziabad,10,760,Uttar Pradesh,2015
 866,74,Product 42,128,Ghaziabad,1,128,Uttar Pradesh,2015
@@ -987,40 +987,40 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 986,83,Product 86,90,Khed,9,810,Maharashtra,2015
 987,83,Product 236,72,Khed,7,504,Maharashtra,2015
 988,83,Product 500,227,Khed,2,454,Maharashtra,2015
-989,84,Product 485,295,Udipi,6,1770,Kerela,2015
-990,84,Product 239,300,Udipi,8,2400,Kerela,2015
-991,84,Product 383,138,Udipi,4,552,Kerela,2015
-992,84,Product 272,201,Udipi,2,402,Kerela,2015
-993,84,Product 12,71,Udipi,8,568,Kerela,2015
-994,84,Product 185,58,Udipi,8,464,Kerela,2015
-995,84,Product 250,208,Udipi,6,1248,Kerela,2015
-996,84,Product 253,178,Udipi,7,1246,Kerela,2015
-997,84,Product 492,215,Udipi,4,860,Kerela,2015
-998,84,Product 9,69,Udipi,9,621,Kerela,2015
-999,84,Product 173,84,Udipi,3,252,Kerela,2015
-1000,84,Product 242,204,Udipi,8,1632,Kerela,2015
-1001,85,Product 393,258,Trivandrum,7,1806,Kerela,2015
-1002,85,Product 275,209,Trivandrum,10,2090,Kerela,2015
-1003,85,Product 296,165,Trivandrum,5,825,Kerela,2015
-1004,85,Product 454,88,Trivandrum,10,880,Kerela,2015
-1005,85,Product 278,161,Trivandrum,7,1127,Kerela,2015
-1006,85,Product 432,149,Trivandrum,4,596,Kerela,2015
-1007,85,Product 287,233,Trivandrum,3,699,Kerela,2015
-1008,85,Product 352,299,Trivandrum,5,1495,Kerela,2015
-1009,85,Product 96,278,Trivandrum,4,1112,Kerela,2015
-1010,85,Product 471,234,Trivandrum,2,468,Kerela,2015
-1011,85,Product 36,64,Trivandrum,2,128,Kerela,2015
-1012,85,Product 173,84,Trivandrum,8,672,Kerela,2015
-1013,86,Product 305,146,Jabalpur,9,1314,Chattisgarh,2015
-1014,86,Product 422,61,Jabalpur,3,183,Chattisgarh,2015
-1015,86,Product 377,275,Jabalpur,1,275,Chattisgarh,2015
-1016,86,Product 195,69,Jabalpur,1,69,Chattisgarh,2015
-1017,86,Product 486,217,Jabalpur,6,1302,Chattisgarh,2015
-1018,86,Product 355,182,Jabalpur,10,1820,Chattisgarh,2015
-1019,86,Product 142,95,Jabalpur,3,285,Chattisgarh,2015
-1020,86,Product 245,291,Jabalpur,3,873,Chattisgarh,2015
-1021,86,Product 93,206,Jabalpur,9,1854,Chattisgarh,2015
-1022,86,Product 164,265,Jabalpur,9,2385,Chattisgarh,2015
+989,84,Product 485,295,Udipi,6,1770,Kerala,2015
+990,84,Product 239,300,Udipi,8,2400,Kerala,2015
+991,84,Product 383,138,Udipi,4,552,Kerala,2015
+992,84,Product 272,201,Udipi,2,402,Kerala,2015
+993,84,Product 12,71,Udipi,8,568,Kerala,2015
+994,84,Product 185,58,Udipi,8,464,Kerala,2015
+995,84,Product 250,208,Udipi,6,1248,Kerala,2015
+996,84,Product 253,178,Udipi,7,1246,Kerala,2015
+997,84,Product 492,215,Udipi,4,860,Kerala,2015
+998,84,Product 9,69,Udipi,9,621,Kerala,2015
+999,84,Product 173,84,Udipi,3,252,Kerala,2015
+1000,84,Product 242,204,Udipi,8,1632,Kerala,2015
+1001,85,Product 393,258,Trivandrum,7,1806,Kerala,2015
+1002,85,Product 275,209,Trivandrum,10,2090,Kerala,2015
+1003,85,Product 296,165,Trivandrum,5,825,Kerala,2015
+1004,85,Product 454,88,Trivandrum,10,880,Kerala,2015
+1005,85,Product 278,161,Trivandrum,7,1127,Kerala,2015
+1006,85,Product 432,149,Trivandrum,4,596,Kerala,2015
+1007,85,Product 287,233,Trivandrum,3,699,Kerala,2015
+1008,85,Product 352,299,Trivandrum,5,1495,Kerala,2015
+1009,85,Product 96,278,Trivandrum,4,1112,Kerala,2015
+1010,85,Product 471,234,Trivandrum,2,468,Kerala,2015
+1011,85,Product 36,64,Trivandrum,2,128,Kerala,2015
+1012,85,Product 173,84,Trivandrum,8,672,Kerala,2015
+1013,86,Product 305,146,Jabalpur,9,1314,Chhattisgarh,2015
+1014,86,Product 422,61,Jabalpur,3,183,Chhattisgarh,2015
+1015,86,Product 377,275,Jabalpur,1,275,Chhattisgarh,2015
+1016,86,Product 195,69,Jabalpur,1,69,Chhattisgarh,2015
+1017,86,Product 486,217,Jabalpur,6,1302,Chhattisgarh,2015
+1018,86,Product 355,182,Jabalpur,10,1820,Chhattisgarh,2015
+1019,86,Product 142,95,Jabalpur,3,285,Chhattisgarh,2015
+1020,86,Product 245,291,Jabalpur,3,873,Chhattisgarh,2015
+1021,86,Product 93,206,Jabalpur,9,1854,Chhattisgarh,2015
+1022,86,Product 164,265,Jabalpur,9,2385,Chhattisgarh,2015
 1023,87,Product 402,224,Nasikroad,6,1344,Maharashtra,2015
 1024,87,Product 466,72,Nasikroad,7,504,Maharashtra,2015
 1025,87,Product 130,177,Nasikroad,10,1770,Maharashtra,2015
@@ -1301,35 +1301,35 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1300,109,Product 395,142,thottiam,9,1278,Tamil Nadu,2015
 1301,109,Product 485,295,thottiam,7,2065,Tamil Nadu,2015
 1302,109,Product 93,206,thottiam,6,1236,Tamil Nadu,2015
-1303,110,Product 367,59,Tiruvanatapuram,7,413,Kerela,2015
-1304,110,Product 296,165,Tiruvanatapuram,7,1155,Kerela,2015
-1305,110,Product 391,126,Tiruvanatapuram,1,126,Kerela,2015
-1306,110,Product 449,59,Tiruvanatapuram,2,118,Kerela,2015
-1307,110,Product 230,165,Tiruvanatapuram,1,165,Kerela,2015
-1308,110,Product 117,228,Tiruvanatapuram,9,2052,Kerela,2015
-1309,110,Product 238,225,Tiruvanatapuram,9,2025,Kerela,2015
-1310,110,Product 341,279,Tiruvanatapuram,4,1116,Kerela,2015
-1311,110,Product 101,229,Tiruvanatapuram,4,916,Kerela,2015
-1312,111,Product 108,291,Ernakulam,6,1746,Kerela,2015
-1313,111,Product 212,70,Ernakulam,2,140,Kerela,2015
-1314,111,Product 144,55,Ernakulam,4,220,Kerela,2015
-1315,111,Product 429,204,Ernakulam,5,1020,Kerela,2015
-1316,111,Product 323,203,Ernakulam,10,2030,Kerela,2015
-1317,111,Product 15,238,Ernakulam,5,1190,Kerela,2015
-1318,111,Product 459,140,Ernakulam,10,1400,Kerela,2015
-1319,111,Product 138,279,Ernakulam,2,558,Kerela,2015
-1320,111,Product 48,214,Ernakulam,3,642,Kerela,2015
-1321,111,Product 475,244,Ernakulam,7,1708,Kerela,2015
-1322,111,Product 218,254,Ernakulam,3,762,Kerela,2015
-1323,111,Product 258,128,Ernakulam,5,640,Kerela,2015
-1324,111,Product 236,72,Ernakulam,4,288,Kerela,2015
-1325,111,Product 363,279,Ernakulam,7,1953,Kerela,2015
-1326,112,Product 276,210,Cochin,8,1680,Kerela,2015
-1327,112,Product 181,238,Cochin,7,1666,Kerela,2015
-1328,112,Product 500,227,Cochin,1,227,Kerela,2015
-1329,112,Product 242,204,Cochin,10,2040,Kerela,2015
-1330,112,Product 173,84,Cochin,7,588,Kerela,2015
-1331,112,Product 80,228,Cochin,5,1140,Kerela,2015
+1303,110,Product 367,59,Tiruvanatapuram,7,413,Kerala,2015
+1304,110,Product 296,165,Tiruvanatapuram,7,1155,Kerala,2015
+1305,110,Product 391,126,Tiruvanatapuram,1,126,Kerala,2015
+1306,110,Product 449,59,Tiruvanatapuram,2,118,Kerala,2015
+1307,110,Product 230,165,Tiruvanatapuram,1,165,Kerala,2015
+1308,110,Product 117,228,Tiruvanatapuram,9,2052,Kerala,2015
+1309,110,Product 238,225,Tiruvanatapuram,9,2025,Kerala,2015
+1310,110,Product 341,279,Tiruvanatapuram,4,1116,Kerala,2015
+1311,110,Product 101,229,Tiruvanatapuram,4,916,Kerala,2015
+1312,111,Product 108,291,Ernakulam,6,1746,Kerala,2015
+1313,111,Product 212,70,Ernakulam,2,140,Kerala,2015
+1314,111,Product 144,55,Ernakulam,4,220,Kerala,2015
+1315,111,Product 429,204,Ernakulam,5,1020,Kerala,2015
+1316,111,Product 323,203,Ernakulam,10,2030,Kerala,2015
+1317,111,Product 15,238,Ernakulam,5,1190,Kerala,2015
+1318,111,Product 459,140,Ernakulam,10,1400,Kerala,2015
+1319,111,Product 138,279,Ernakulam,2,558,Kerala,2015
+1320,111,Product 48,214,Ernakulam,3,642,Kerala,2015
+1321,111,Product 475,244,Ernakulam,7,1708,Kerala,2015
+1322,111,Product 218,254,Ernakulam,3,762,Kerala,2015
+1323,111,Product 258,128,Ernakulam,5,640,Kerala,2015
+1324,111,Product 236,72,Ernakulam,4,288,Kerala,2015
+1325,111,Product 363,279,Ernakulam,7,1953,Kerala,2015
+1326,112,Product 276,210,Cochin,8,1680,Kerala,2015
+1327,112,Product 181,238,Cochin,7,1666,Kerala,2015
+1328,112,Product 500,227,Cochin,1,227,Kerala,2015
+1329,112,Product 242,204,Cochin,10,2040,Kerala,2015
+1330,112,Product 173,84,Cochin,7,588,Kerala,2015
+1331,112,Product 80,228,Cochin,5,1140,Kerala,2015
 1332,113,Product 164,265,Pimpri-Chinchwad,7,1855,Maharashtra,2015
 1333,113,Product 382,223,Pimpri-Chinchwad,7,1561,Maharashtra,2015
 1334,113,Product 351,192,Pimpri-Chinchwad,1,192,Maharashtra,2015
@@ -1607,18 +1607,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1606,136,Product 57,82,Etawah,8,656,Uttar Pradesh,2015
 1607,136,Product 485,295,Etawah,6,1770,Uttar Pradesh,2015
 1608,136,Product 181,238,Etawah,6,1428,Uttar Pradesh,2015
-1609,137,Product 379,51,KOZHIKODE,8,408,Kerela,2015
-1610,137,Product 52,275,KOZHIKODE,4,1100,Kerela,2015
-1611,137,Product 418,199,KOZHIKODE,2,398,Kerela,2015
-1612,137,Product 162,112,KOZHIKODE,7,784,Kerela,2015
-1613,137,Product 208,69,KOZHIKODE,7,483,Kerela,2015
-1614,137,Product 489,283,KOZHIKODE,3,849,Kerela,2015
-1615,137,Product 374,90,KOZHIKODE,10,900,Kerela,2015
-1616,137,Product 51,126,KOZHIKODE,2,252,Kerela,2015
-1617,137,Product 410,296,KOZHIKODE,2,592,Kerela,2015
-1618,137,Product 253,178,KOZHIKODE,1,178,Kerela,2015
-1619,137,Product 304,300,KOZHIKODE,2,600,Kerela,2015
-1620,137,Product 203,180,KOZHIKODE,6,1080,Kerela,2015
+1609,137,Product 379,51,KOZHIKODE,8,408,Kerala,2015
+1610,137,Product 52,275,KOZHIKODE,4,1100,Kerala,2015
+1611,137,Product 418,199,KOZHIKODE,2,398,Kerala,2015
+1612,137,Product 162,112,KOZHIKODE,7,784,Kerala,2015
+1613,137,Product 208,69,KOZHIKODE,7,483,Kerala,2015
+1614,137,Product 489,283,KOZHIKODE,3,849,Kerala,2015
+1615,137,Product 374,90,KOZHIKODE,10,900,Kerala,2015
+1616,137,Product 51,126,KOZHIKODE,2,252,Kerala,2015
+1617,137,Product 410,296,KOZHIKODE,2,592,Kerala,2015
+1618,137,Product 253,178,KOZHIKODE,1,178,Kerala,2015
+1619,137,Product 304,300,KOZHIKODE,2,600,Kerala,2015
+1620,137,Product 203,180,KOZHIKODE,6,1080,Kerala,2015
 1621,138,Product 351,192,kushalnagar,7,1344,Karnataka,2015
 1622,138,Product 457,267,kushalnagar,10,2670,Karnataka,2015
 1623,138,Product 255,222,kushalnagar,9,1998,Karnataka,2015
@@ -1645,23 +1645,23 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1644,139,Product 320,182,pala,1,182,Karnataka,2015
 1645,139,Product 263,68,pala,5,340,Karnataka,2015
 1646,139,Product 190,210,pala,6,1260,Karnataka,2015
-1647,140,Product 411,157,Kollam,7,1099,Kerela,2015
-1648,140,Product 355,182,Kollam,5,910,Kerela,2015
-1649,140,Product 346,200,Kollam,3,600,Kerela,2015
-1650,140,Product 321,95,Kollam,8,760,Kerela,2015
-1651,140,Product 418,199,Kollam,10,1990,Kerela,2015
-1652,140,Product 73,275,Kollam,1,275,Kerela,2015
-1653,140,Product 331,218,Kollam,9,1962,Kerela,2015
-1654,140,Product 58,233,Kollam,1,233,Kerela,2015
-1655,140,Product 92,108,Kollam,10,1080,Kerela,2015
-1656,140,Product 280,139,Kollam,7,973,Kerela,2015
-1657,140,Product 28,201,Kollam,8,1608,Kerela,2015
-1658,140,Product 359,245,Kollam,10,2450,Kerela,2015
-1659,140,Product 256,97,Kollam,10,970,Kerela,2015
-1660,140,Product 76,121,Kollam,7,847,Kerela,2015
-1661,140,Product 189,166,Kollam,5,830,Kerela,2015
-1662,140,Product 90,255,Kollam,3,765,Kerela,2015
-1663,140,Product 173,84,Kollam,7,588,Kerela,2015
+1647,140,Product 411,157,Kollam,7,1099,Kerala,2015
+1648,140,Product 355,182,Kollam,5,910,Kerala,2015
+1649,140,Product 346,200,Kollam,3,600,Kerala,2015
+1650,140,Product 321,95,Kollam,8,760,Kerala,2015
+1651,140,Product 418,199,Kollam,10,1990,Kerala,2015
+1652,140,Product 73,275,Kollam,1,275,Kerala,2015
+1653,140,Product 331,218,Kollam,9,1962,Kerala,2015
+1654,140,Product 58,233,Kollam,1,233,Kerala,2015
+1655,140,Product 92,108,Kollam,10,1080,Kerala,2015
+1656,140,Product 280,139,Kollam,7,973,Kerala,2015
+1657,140,Product 28,201,Kollam,8,1608,Kerala,2015
+1658,140,Product 359,245,Kollam,10,2450,Kerala,2015
+1659,140,Product 256,97,Kollam,10,970,Kerala,2015
+1660,140,Product 76,121,Kollam,7,847,Kerala,2015
+1661,140,Product 189,166,Kollam,5,830,Kerala,2015
+1662,140,Product 90,255,Kollam,3,765,Kerala,2015
+1663,140,Product 173,84,Kollam,7,588,Kerala,2015
 1664,141,Product 135,164,Indore,8,1312,Madhya Pradesh,2015
 1665,141,Product 274,268,Indore,4,1072,Madhya Pradesh,2015
 1666,141,Product 435,218,Indore,8,1744,Madhya Pradesh,2015
@@ -1775,16 +1775,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1774,151,Product 461,123,patna,7,861,Bihar,2016
 1775,151,Product 93,206,patna,6,1236,Bihar,2016
 1776,151,Product 380,210,patna,1,210,Bihar,2016
-1777,152,Product 34,54,THRISUR,9,486,Kerela,2016
-1778,152,Product 108,291,THRISUR,3,873,Kerela,2016
-1779,152,Product 269,123,THRISUR,4,492,Kerela,2016
-1780,152,Product 409,77,THRISUR,4,308,Kerela,2016
-1781,152,Product 327,105,THRISUR,1,105,Kerela,2016
-1782,152,Product 65,146,THRISUR,4,584,Kerela,2016
-1783,152,Product 188,228,THRISUR,7,1596,Kerela,2016
-1784,152,Product 437,214,THRISUR,4,856,Kerela,2016
-1785,152,Product 298,91,THRISUR,8,728,Kerela,2016
-1786,152,Product 356,76,THRISUR,8,608,Kerela,2016
+1777,152,Product 34,54,THRISUR,9,486,Kerala,2016
+1778,152,Product 108,291,THRISUR,3,873,Kerala,2016
+1779,152,Product 269,123,THRISUR,4,492,Kerala,2016
+1780,152,Product 409,77,THRISUR,4,308,Kerala,2016
+1781,152,Product 327,105,THRISUR,1,105,Kerala,2016
+1782,152,Product 65,146,THRISUR,4,584,Kerala,2016
+1783,152,Product 188,228,THRISUR,7,1596,Kerala,2016
+1784,152,Product 437,214,THRISUR,4,856,Kerala,2016
+1785,152,Product 298,91,THRISUR,8,728,Kerala,2016
+1786,152,Product 356,76,THRISUR,8,608,Kerala,2016
 1787,153,Product 137,177,Mohali,3,531,Punjab,2016
 1788,153,Product 265,196,Mohali,4,784,Punjab,2016
 1789,153,Product 94,295,Mohali,1,295,Punjab,2016
@@ -1919,34 +1919,34 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1918,164,Product 355,182,NAJAFGARH,3,546,New Delhi,2016
 1919,164,Product 474,109,NAJAFGARH,4,436,New Delhi,2016
 1920,164,Product 356,76,NAJAFGARH,9,684,New Delhi,2016
-1921,165,Product 28,201,bhubaneswar,8,1608,Odisha,2016
-1922,165,Product 265,196,bhubaneswar,1,196,Odisha,2016
-1923,165,Product 233,57,bhubaneswar,3,171,Odisha,2016
-1924,165,Product 366,284,bhubaneswar,7,1988,Odisha,2016
-1925,165,Product 134,127,bhubaneswar,3,381,Odisha,2016
-1926,165,Product 62,52,bhubaneswar,8,416,Odisha,2016
-1927,165,Product 60,101,bhubaneswar,5,505,Odisha,2016
-1928,165,Product 450,93,bhubaneswar,8,744,Odisha,2016
-1929,165,Product 139,211,bhubaneswar,3,633,Odisha,2016
-1930,165,Product 108,291,bhubaneswar,3,873,Odisha,2016
-1931,165,Product 153,164,bhubaneswar,5,820,Odisha,2016
-1932,165,Product 106,190,bhubaneswar,7,1330,Odisha,2016
-1933,165,Product 99,108,bhubaneswar,7,756,Odisha,2016
-1934,165,Product 93,206,bhubaneswar,4,824,Odisha,2016
-1935,166,Product 38,150,Kottayam,5,750,Kerela,2016
-1936,166,Product 66,270,Kottayam,5,1350,Kerela,2016
-1937,166,Product 235,197,Kottayam,4,788,Kerela,2016
-1938,166,Product 163,71,Kottayam,8,568,Kerela,2016
-1939,166,Product 166,60,Kottayam,8,480,Kerela,2016
-1940,166,Product 183,102,Kottayam,4,408,Kerela,2016
-1941,166,Product 179,224,Kottayam,2,448,Kerela,2016
-1942,166,Product 191,286,Kottayam,4,1144,Kerela,2016
-1943,166,Product 367,59,Kottayam,2,118,Kerela,2016
-1944,166,Product 72,195,Kottayam,8,1560,Kerela,2016
-1945,166,Product 365,203,Kottayam,2,406,Kerela,2016
-1946,166,Product 395,142,Kottayam,7,994,Kerela,2016
-1947,166,Product 394,75,Kottayam,8,600,Kerela,2016
-1948,166,Product 92,108,Kottayam,10,1080,Kerela,2016
+1921,165,Product 28,201,bhubaneswar,8,1608,Orissa,2016
+1922,165,Product 265,196,bhubaneswar,1,196,Orissa,2016
+1923,165,Product 233,57,bhubaneswar,3,171,Orissa,2016
+1924,165,Product 366,284,bhubaneswar,7,1988,Orissa,2016
+1925,165,Product 134,127,bhubaneswar,3,381,Orissa,2016
+1926,165,Product 62,52,bhubaneswar,8,416,Orissa,2016
+1927,165,Product 60,101,bhubaneswar,5,505,Orissa,2016
+1928,165,Product 450,93,bhubaneswar,8,744,Orissa,2016
+1929,165,Product 139,211,bhubaneswar,3,633,Orissa,2016
+1930,165,Product 108,291,bhubaneswar,3,873,Orissa,2016
+1931,165,Product 153,164,bhubaneswar,5,820,Orissa,2016
+1932,165,Product 106,190,bhubaneswar,7,1330,Orissa,2016
+1933,165,Product 99,108,bhubaneswar,7,756,Orissa,2016
+1934,165,Product 93,206,bhubaneswar,4,824,Orissa,2016
+1935,166,Product 38,150,Kottayam,5,750,Kerala,2016
+1936,166,Product 66,270,Kottayam,5,1350,Kerala,2016
+1937,166,Product 235,197,Kottayam,4,788,Kerala,2016
+1938,166,Product 163,71,Kottayam,8,568,Kerala,2016
+1939,166,Product 166,60,Kottayam,8,480,Kerala,2016
+1940,166,Product 183,102,Kottayam,4,408,Kerala,2016
+1941,166,Product 179,224,Kottayam,2,448,Kerala,2016
+1942,166,Product 191,286,Kottayam,4,1144,Kerala,2016
+1943,166,Product 367,59,Kottayam,2,118,Kerala,2016
+1944,166,Product 72,195,Kottayam,8,1560,Kerala,2016
+1945,166,Product 365,203,Kottayam,2,406,Kerala,2016
+1946,166,Product 395,142,Kottayam,7,994,Kerala,2016
+1947,166,Product 394,75,Kottayam,8,600,Kerala,2016
+1948,166,Product 92,108,Kottayam,10,1080,Kerala,2016
 1949,167,Product 307,206,Vadodara.,7,1442,Gujarat,2016
 1950,167,Product 166,60,Vadodara.,8,480,Gujarat,2016
 1951,167,Product 397,64,Vadodara.,7,448,Gujarat,2016
@@ -1989,21 +1989,21 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 1988,169,Product 167,202,guna,10,2020,Madhya Pradesh,2016
 1989,169,Product 5,257,guna,10,2570,Madhya Pradesh,2016
 1990,169,Product 466,72,guna,6,432,Madhya Pradesh,2016
-1991,170,Product 377,275,Ottapalam,2,550,Kerela,2016
-1992,170,Product 297,290,Ottapalam,7,2030,Kerela,2016
-1993,170,Product 206,205,Ottapalam,4,820,Kerela,2016
-1994,170,Product 447,75,Ottapalam,3,225,Kerela,2016
-1995,170,Product 218,254,Ottapalam,4,1016,Kerela,2016
-1996,170,Product 183,102,Ottapalam,5,510,Kerela,2016
-1997,170,Product 132,100,Ottapalam,6,600,Kerela,2016
-1998,170,Product 30,214,Ottapalam,9,1926,Kerela,2016
-1999,170,Product 278,161,Ottapalam,5,805,Kerela,2016
-2000,170,Product 121,85,Ottapalam,7,595,Kerela,2016
-2001,170,Product 488,250,Ottapalam,1,250,Kerela,2016
-2002,170,Product 431,245,Ottapalam,7,1715,Kerela,2016
-2003,170,Product 197,272,Ottapalam,8,2176,Kerela,2016
-2004,170,Product 396,291,Ottapalam,9,2619,Kerela,2016
-2005,170,Product 154,254,Ottapalam,5,1270,Kerela,2016
+1991,170,Product 377,275,Ottapalam,2,550,Kerala,2016
+1992,170,Product 297,290,Ottapalam,7,2030,Kerala,2016
+1993,170,Product 206,205,Ottapalam,4,820,Kerala,2016
+1994,170,Product 447,75,Ottapalam,3,225,Kerala,2016
+1995,170,Product 218,254,Ottapalam,4,1016,Kerala,2016
+1996,170,Product 183,102,Ottapalam,5,510,Kerala,2016
+1997,170,Product 132,100,Ottapalam,6,600,Kerala,2016
+1998,170,Product 30,214,Ottapalam,9,1926,Kerala,2016
+1999,170,Product 278,161,Ottapalam,5,805,Kerala,2016
+2000,170,Product 121,85,Ottapalam,7,595,Kerala,2016
+2001,170,Product 488,250,Ottapalam,1,250,Kerala,2016
+2002,170,Product 431,245,Ottapalam,7,1715,Kerala,2016
+2003,170,Product 197,272,Ottapalam,8,2176,Kerala,2016
+2004,170,Product 396,291,Ottapalam,9,2619,Kerala,2016
+2005,170,Product 154,254,Ottapalam,5,1270,Kerala,2016
 2006,171,Product 336,51,THANJAVUR,2,102,Tamil Nadu,2016
 2007,171,Product 480,125,THANJAVUR,7,875,Tamil Nadu,2016
 2008,171,Product 134,127,THANJAVUR,4,508,Tamil Nadu,2016
@@ -2043,16 +2043,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2042,173,Product 112,193,NAGAON,2,386,Assam,2016
 2043,173,Product 460,240,NAGAON,3,720,Assam,2016
 2044,173,Product 402,224,NAGAON,10,2240,Assam,2016
-2045,174,Product 53,253,Bhubaneshwar,8,2024,Odisha,2016
-2046,174,Product 436,227,Bhubaneshwar,6,1362,Odisha,2016
-2047,174,Product 129,118,Bhubaneshwar,10,1180,Odisha,2016
-2048,174,Product 182,87,Bhubaneshwar,3,261,Odisha,2016
-2049,174,Product 39,95,Bhubaneshwar,9,855,Odisha,2016
-2050,174,Product 239,300,Bhubaneshwar,5,1500,Odisha,2016
-2051,174,Product 201,189,Bhubaneshwar,9,1701,Odisha,2016
-2052,174,Product 42,128,Bhubaneshwar,9,1152,Odisha,2016
-2053,174,Product 430,242,Bhubaneshwar,6,1452,Odisha,2016
-2054,174,Product 484,115,Bhubaneshwar,8,920,Odisha,2016
+2045,174,Product 53,253,Bhubaneshwar,8,2024,Orissa,2016
+2046,174,Product 436,227,Bhubaneshwar,6,1362,Orissa,2016
+2047,174,Product 129,118,Bhubaneshwar,10,1180,Orissa,2016
+2048,174,Product 182,87,Bhubaneshwar,3,261,Orissa,2016
+2049,174,Product 39,95,Bhubaneshwar,9,855,Orissa,2016
+2050,174,Product 239,300,Bhubaneshwar,5,1500,Orissa,2016
+2051,174,Product 201,189,Bhubaneshwar,9,1701,Orissa,2016
+2052,174,Product 42,128,Bhubaneshwar,9,1152,Orissa,2016
+2053,174,Product 430,242,Bhubaneshwar,6,1452,Orissa,2016
+2054,174,Product 484,115,Bhubaneshwar,8,920,Orissa,2016
 2055,175,Product 286,76,HISAR,6,456,Haryana,2016
 2056,175,Product 94,295,HISAR,1,295,Haryana,2016
 2057,175,Product 353,259,HISAR,5,1295,Haryana,2016
@@ -2279,15 +2279,15 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2278,194,Product 32,197,durgapur-713207,5,985,West Bengal,2016
 2279,194,Product 274,268,durgapur-713208,5,1340,West Bengal,2016
 2280,194,Product 198,125,durgapur-713209,6,750,West Bengal,2016
-2281,195,Product 91,68,Kochi,10,680,Kerela,2016
-2282,195,Product 197,272,Kochi,5,1360,Kerela,2016
-2283,195,Product 404,155,Kochi,3,465,Kerela,2016
-2284,195,Product 167,202,Kochi,6,1212,Kerela,2016
-2285,195,Product 164,265,Kochi,2,530,Kerela,2016
-2286,195,Product 113,133,Kochi,9,1197,Kerela,2016
-2287,195,Product 18,136,Kochi,2,272,Kerela,2016
-2288,195,Product 107,133,Kochi,3,399,Kerela,2016
-2289,195,Product 236,72,Kochi,10,720,Kerela,2016
+2281,195,Product 91,68,Kochi,10,680,Kerala,2016
+2282,195,Product 197,272,Kochi,5,1360,Kerala,2016
+2283,195,Product 404,155,Kochi,3,465,Kerala,2016
+2284,195,Product 167,202,Kochi,6,1212,Kerala,2016
+2285,195,Product 164,265,Kochi,2,530,Kerala,2016
+2286,195,Product 113,133,Kochi,9,1197,Kerala,2016
+2287,195,Product 18,136,Kochi,2,272,Kerala,2016
+2288,195,Product 107,133,Kochi,3,399,Kerala,2016
+2289,195,Product 236,72,Kochi,10,720,Kerala,2016
 2290,195,Product 492,215,Kochi,8,1720,Karnataka,2016
 2291,196,Product 285,144,Gulbarga,10,1440,Karnataka,2016
 2292,196,Product 17,159,Gulbarga,10,1590,Karnataka,2016
@@ -2527,36 +2527,36 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2526,214,Product 112,193,West Medinipur,5,965,West Bengal,2016
 2527,214,Product 458,250,West Medinipur,9,2250,West Bengal,2016
 2528,214,Product 236,72,West Medinipur,6,432,West Bengal,2016
-2529,215,Product 396,291,KANNUR,3,873,Kerela,2016
-2530,215,Product 493,240,KANNUR,6,1440,Kerela,2016
-2531,215,Product 48,214,KANNUR,2,428,Kerela,2016
-2532,215,Product 176,260,KANNUR,10,2600,Kerela,2016
-2533,215,Product 408,104,KANNUR,1,104,Kerela,2016
-2534,215,Product 117,228,KANNUR,1,228,Kerela,2016
-2535,215,Product 251,218,KANNUR,4,872,Kerela,2016
-2536,215,Product 212,70,KANNUR,9,630,Kerela,2016
-2537,215,Product 305,146,KANNUR,6,876,Kerela,2016
-2538,215,Product 108,291,KANNUR,5,1455,Kerela,2016
-2539,215,Product 234,193,KANNUR,6,1158,Kerela,2016
-2540,215,Product 410,296,KANNUR,9,2664,Kerela,2016
-2541,215,Product 493,240,KANNUR,1,240,Kerela,2016
-2542,215,Product 285,144,KANNUR,8,1152,Kerela,2016
-2543,215,Product 208,69,KANNUR,1,69,Kerela,2016
-2544,216,Product 132,100,CUTTACK,4,400,Odhisha,2016
-2545,216,Product 472,252,CUTTACK,3,756,Odhisha,2016
-2546,216,Product 303,285,CUTTACK,4,1140,Odhisha,2016
-2547,216,Product 493,240,CUTTACK,9,2160,Odhisha,2016
-2548,216,Product 158,87,CUTTACK,2,174,Odhisha,2016
-2549,216,Product 143,268,CUTTACK,10,2680,Odhisha,2016
-2550,216,Product 440,218,CUTTACK,5,1090,Odhisha,2016
-2551,216,Product 399,232,CUTTACK,10,2320,Odhisha,2016
-2552,216,Product 6,262,CUTTACK,4,1048,Odhisha,2016
-2553,216,Product 364,217,CUTTACK,2,434,Odhisha,2016
-2554,216,Product 262,257,CUTTACK,4,1028,Odhisha,2016
-2555,216,Product 146,109,CUTTACK,3,327,Odhisha,2016
-2556,216,Product 224,142,CUTTACK,8,1136,Odhisha,2016
-2557,216,Product 449,59,CUTTACK,8,472,Odhisha,2016
-2558,216,Product 342,120,CUTTACK,5,600,Odhisha,2016
+2529,215,Product 396,291,KANNUR,3,873,Kerala,2016
+2530,215,Product 493,240,KANNUR,6,1440,Kerala,2016
+2531,215,Product 48,214,KANNUR,2,428,Kerala,2016
+2532,215,Product 176,260,KANNUR,10,2600,Kerala,2016
+2533,215,Product 408,104,KANNUR,1,104,Kerala,2016
+2534,215,Product 117,228,KANNUR,1,228,Kerala,2016
+2535,215,Product 251,218,KANNUR,4,872,Kerala,2016
+2536,215,Product 212,70,KANNUR,9,630,Kerala,2016
+2537,215,Product 305,146,KANNUR,6,876,Kerala,2016
+2538,215,Product 108,291,KANNUR,5,1455,Kerala,2016
+2539,215,Product 234,193,KANNUR,6,1158,Kerala,2016
+2540,215,Product 410,296,KANNUR,9,2664,Kerala,2016
+2541,215,Product 493,240,KANNUR,1,240,Kerala,2016
+2542,215,Product 285,144,KANNUR,8,1152,Kerala,2016
+2543,215,Product 208,69,KANNUR,1,69,Kerala,2016
+2544,216,Product 132,100,CUTTACK,4,400,Orissa,2016
+2545,216,Product 472,252,CUTTACK,3,756,Orissa,2016
+2546,216,Product 303,285,CUTTACK,4,1140,Orissa,2016
+2547,216,Product 493,240,CUTTACK,9,2160,Orissa,2016
+2548,216,Product 158,87,CUTTACK,2,174,Orissa,2016
+2549,216,Product 143,268,CUTTACK,10,2680,Orissa,2016
+2550,216,Product 440,218,CUTTACK,5,1090,Orissa,2016
+2551,216,Product 399,232,CUTTACK,10,2320,Orissa,2016
+2552,216,Product 6,262,CUTTACK,4,1048,Orissa,2016
+2553,216,Product 364,217,CUTTACK,2,434,Orissa,2016
+2554,216,Product 262,257,CUTTACK,4,1028,Orissa,2016
+2555,216,Product 146,109,CUTTACK,3,327,Orissa,2016
+2556,216,Product 224,142,CUTTACK,8,1136,Orissa,2016
+2557,216,Product 449,59,CUTTACK,8,472,Orissa,2016
+2558,216,Product 342,120,CUTTACK,5,600,Orissa,2016
 2559,217,Product 327,105,Ranchi,10,1050,Jharkhand,2016
 2560,217,Product 2,239,Ranchi,10,2390,Jharkhand,2016
 2561,217,Product 152,85,Ranchi,10,850,Jharkhand,2016
@@ -2631,21 +2631,21 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2630,222,Product 495,122,Shamshabad,5,610,Andhra Pradesh,2016
 2631,222,Product 274,268,Shamshabad,7,1876,Andhra Pradesh,2016
 2632,222,Product 225,122,Shamshabad,4,488,Andhra Pradesh,2016
-2633,223,Product 500,227,Cherppulassery,6,1362,Kerela,2016
-2634,223,Product 301,217,Cherppulassery,3,651,Kerela,2016
-2635,223,Product 172,194,Cherppulassery,9,1746,Kerela,2016
-2636,223,Product 219,227,Cherppulassery,7,1589,Kerela,2016
-2637,223,Product 196,67,Cherppulassery,2,134,Kerela,2016
-2638,223,Product 65,146,Cherppulassery,10,1460,Kerela,2016
-2639,223,Product 492,215,Cherppulassery,2,430,Kerela,2016
-2640,223,Product 232,66,Cherppulassery,4,264,Kerela,2016
-2641,223,Product 142,95,Cherppulassery,7,665,Kerela,2016
-2642,223,Product 60,101,Cherppulassery,1,101,Kerela,2016
-2643,223,Product 460,240,Cherppulassery,2,480,Kerela,2016
-2644,223,Product 250,208,Cherppulassery,4,832,Kerela,2016
-2645,223,Product 256,97,Cherppulassery,8,776,Kerela,2016
-2646,223,Product 236,72,Cherppulassery,1,72,Kerela,2016
-2647,223,Product 200,206,Cherppulassery,5,1030,Kerela,2016
+2633,223,Product 500,227,Cherppulassery,6,1362,Kerala,2016
+2634,223,Product 301,217,Cherppulassery,3,651,Kerala,2016
+2635,223,Product 172,194,Cherppulassery,9,1746,Kerala,2016
+2636,223,Product 219,227,Cherppulassery,7,1589,Kerala,2016
+2637,223,Product 196,67,Cherppulassery,2,134,Kerala,2016
+2638,223,Product 65,146,Cherppulassery,10,1460,Kerala,2016
+2639,223,Product 492,215,Cherppulassery,2,430,Kerala,2016
+2640,223,Product 232,66,Cherppulassery,4,264,Kerala,2016
+2641,223,Product 142,95,Cherppulassery,7,665,Kerala,2016
+2642,223,Product 60,101,Cherppulassery,1,101,Kerala,2016
+2643,223,Product 460,240,Cherppulassery,2,480,Kerala,2016
+2644,223,Product 250,208,Cherppulassery,4,832,Kerala,2016
+2645,223,Product 256,97,Cherppulassery,8,776,Kerala,2016
+2646,223,Product 236,72,Cherppulassery,1,72,Kerala,2016
+2647,223,Product 200,206,Cherppulassery,5,1030,Kerala,2016
 2648,224,Product 28,201,CHEYYAR,5,1005,Tamil Nadu,2016
 2649,224,Product 57,82,CHEYYAR,7,574,Tamil Nadu,2016
 2650,224,Product 403,62,CHEYYAR,2,124,Tamil Nadu,2016
@@ -2667,30 +2667,30 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2666,225,Product 96,278,Haldwani,1,278,Uttarakhand,2016
 2667,225,Product 36,64,Haldwani,4,256,Uttarakhand,2016
 2668,225,Product 173,84,Haldwani,9,756,Uttarakhand,2016
-2669,226,Product 298,91,ALUVA,3,273,Kerela,2016
-2670,226,Product 338,155,ALUVA,2,310,Kerela,2016
-2671,226,Product 469,109,ALUVA,7,763,Kerela,2016
-2672,226,Product 55,159,ALUVA,10,1590,Kerela,2016
-2673,226,Product 303,285,ALUVA,7,1995,Kerela,2016
-2674,226,Product 260,167,ALUVA,10,1670,Kerela,2016
-2675,226,Product 318,280,ALUVA,5,1400,Kerela,2016
-2676,226,Product 170,83,ALUVA,6,498,Kerela,2016
-2677,226,Product 69,88,ALUVA,10,880,Kerela,2016
-2678,226,Product 455,240,ALUVA,6,1440,Kerela,2016
-2679,226,Product 469,109,ALUVA,8,872,Kerela,2016
-2680,226,Product 179,224,ALUVA,8,1792,Kerela,2016
-2681,226,Product 90,255,ALUVA,2,510,Kerela,2016
-2682,226,Product 93,206,ALUVA,8,1648,Kerela,2016
-2683,226,Product 225,122,ALUVA,2,244,Kerela,2016
-2684,227,Product 26,125,neemuch,10,1250,madhyapradesh,2016
-2685,227,Product 428,238,neemuch,10,2380,madhyapradesh,2016
-2686,227,Product 459,140,neemuch,1,140,madhyapradesh,2016
-2687,227,Product 370,57,neemuch,7,399,madhyapradesh,2016
-2688,227,Product 254,150,neemuch,3,450,madhyapradesh,2016
-2689,227,Product 183,102,neemuch,2,204,madhyapradesh,2016
-2690,227,Product 15,238,neemuch,8,1904,madhyapradesh,2016
-2691,227,Product 485,295,neemuch,2,590,madhyapradesh,2016
-2692,227,Product 43,81,neemuch,8,648,madhyapradesh,2016
+2669,226,Product 298,91,ALUVA,3,273,Kerala,2016
+2670,226,Product 338,155,ALUVA,2,310,Kerala,2016
+2671,226,Product 469,109,ALUVA,7,763,Kerala,2016
+2672,226,Product 55,159,ALUVA,10,1590,Kerala,2016
+2673,226,Product 303,285,ALUVA,7,1995,Kerala,2016
+2674,226,Product 260,167,ALUVA,10,1670,Kerala,2016
+2675,226,Product 318,280,ALUVA,5,1400,Kerala,2016
+2676,226,Product 170,83,ALUVA,6,498,Kerala,2016
+2677,226,Product 69,88,ALUVA,10,880,Kerala,2016
+2678,226,Product 455,240,ALUVA,6,1440,Kerala,2016
+2679,226,Product 469,109,ALUVA,8,872,Kerala,2016
+2680,226,Product 179,224,ALUVA,8,1792,Kerala,2016
+2681,226,Product 90,255,ALUVA,2,510,Kerala,2016
+2682,226,Product 93,206,ALUVA,8,1648,Kerala,2016
+2683,226,Product 225,122,ALUVA,2,244,Kerala,2016
+2684,227,Product 26,125,neemuch,10,1250,Madhya Pradesh,2016
+2685,227,Product 428,238,neemuch,10,2380,Madhya Pradesh,2016
+2686,227,Product 459,140,neemuch,1,140,Madhya Pradesh,2016
+2687,227,Product 370,57,neemuch,7,399,Madhya Pradesh,2016
+2688,227,Product 254,150,neemuch,3,450,Madhya Pradesh,2016
+2689,227,Product 183,102,neemuch,2,204,Madhya Pradesh,2016
+2690,227,Product 15,238,neemuch,8,1904,Madhya Pradesh,2016
+2691,227,Product 485,295,neemuch,2,590,Madhya Pradesh,2016
+2692,227,Product 43,81,neemuch,8,648,Madhya Pradesh,2016
 2693,228,Product 340,172,NewDELHI,8,1376,New Delhi,2016
 2694,228,Product 249,131,NewDELHI,1,131,New Delhi,2016
 2695,228,Product 165,184,NewDELHI,5,920,New Delhi,2016
@@ -2801,28 +2801,28 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2800,236,Product 387,168,Gwalior,6,1008,Madhya Pradesh,2016
 2801,236,Product 120,68,Gwalior,3,204,Madhya Pradesh,2016
 2802,236,Product 132,100,Gwalior,4,400,Madhya Pradesh,2016
-2803,237,Product 450,93,Rourkela,10,930,Odisha,2016
-2804,237,Product 436,227,Rourkela,5,1135,Odisha,2016
-2805,237,Product 160,107,Rourkela,10,1070,Odisha,2016
-2806,237,Product 456,135,Rourkela,7,945,Odisha,2016
-2807,237,Product 262,257,Rourkela,9,2313,Odisha,2016
-2808,237,Product 423,182,Rourkela,9,1638,Odisha,2016
-2809,237,Product 206,205,Rourkela,5,1025,Odisha,2016
-2810,237,Product 468,237,Rourkela,2,474,Odisha,2016
-2811,237,Product 115,160,Rourkela,7,1120,Odisha,2016
-2812,237,Product 257,128,Rourkela,7,896,Odisha,2016
-2813,237,Product 165,184,Rourkela,2,368,Odisha,2016
-2814,237,Product 81,109,Rourkela,8,872,Odisha,2016
-2815,237,Product 144,55,Rourkela,2,110,Odisha,2016
-2816,238,Product 82,150,Kanjirappally,4,600,Kerela,2016
-2817,238,Product 74,164,Kanjirappally,2,328,Kerela,2016
-2818,238,Product 447,75,Kanjirappally,8,600,Kerela,2016
-2819,238,Product 426,53,Kanjirappally,10,530,Kerela,2016
-2820,238,Product 494,216,Kanjirappally,4,864,Kerela,2016
-2821,238,Product 143,268,Kanjirappally,9,2412,Kerela,2016
-2822,238,Product 390,294,Kanjirappally,3,882,Kerela,2016
-2823,238,Product 494,216,Kanjirappally,8,1728,Kerela,2016
-2824,238,Product 150,111,Kanjirappally,6,666,Kerela,2016
+2803,237,Product 450,93,Rourkela,10,930,Orissa,2016
+2804,237,Product 436,227,Rourkela,5,1135,Orissa,2016
+2805,237,Product 160,107,Rourkela,10,1070,Orissa,2016
+2806,237,Product 456,135,Rourkela,7,945,Orissa,2016
+2807,237,Product 262,257,Rourkela,9,2313,Orissa,2016
+2808,237,Product 423,182,Rourkela,9,1638,Orissa,2016
+2809,237,Product 206,205,Rourkela,5,1025,Orissa,2016
+2810,237,Product 468,237,Rourkela,2,474,Orissa,2016
+2811,237,Product 115,160,Rourkela,7,1120,Orissa,2016
+2812,237,Product 257,128,Rourkela,7,896,Orissa,2016
+2813,237,Product 165,184,Rourkela,2,368,Orissa,2016
+2814,237,Product 81,109,Rourkela,8,872,Orissa,2016
+2815,237,Product 144,55,Rourkela,2,110,Orissa,2016
+2816,238,Product 82,150,Kanjirappally,4,600,Kerala,2016
+2817,238,Product 74,164,Kanjirappally,2,328,Kerala,2016
+2818,238,Product 447,75,Kanjirappally,8,600,Kerala,2016
+2819,238,Product 426,53,Kanjirappally,10,530,Kerala,2016
+2820,238,Product 494,216,Kanjirappally,4,864,Kerala,2016
+2821,238,Product 143,268,Kanjirappally,9,2412,Kerala,2016
+2822,238,Product 390,294,Kanjirappally,3,882,Kerala,2016
+2823,238,Product 494,216,Kanjirappally,8,1728,Kerala,2016
+2824,238,Product 150,111,Kanjirappally,6,666,Kerala,2016
 2825,239,Product 415,86,miraj,9,774,Maharashtra,2016
 2826,239,Product 320,182,miraj,8,1456,Maharashtra,2016
 2827,239,Product 104,211,miraj,2,422,Maharashtra,2016
@@ -2906,18 +2906,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2905,245,Product 146,109,Palakol,10,1090,Andhra Pradesh,2016
 2906,245,Product 492,215,Palakol,3,645,Andhra Pradesh,2016
 2907,245,Product 215,75,Palakol,4,300,Andhra Pradesh,2016
-2908,246,Product 267,114,Adoor,7,798,Kerela,2016
-2909,246,Product 423,182,Adoor,7,1274,Kerela,2016
-2910,246,Product 305,146,Adoor,3,438,Kerela,2016
-2911,246,Product 384,65,Adoor,6,390,Kerela,2016
-2912,246,Product 295,247,Adoor,9,2223,Kerela,2016
-2913,246,Product 27,228,Adoor,4,912,Kerela,2016
-2914,246,Product 223,174,Adoor,7,1218,Kerela,2016
-2915,246,Product 456,135,Adoor,5,675,Kerela,2016
-2916,246,Product 361,120,Adoor,8,960,Kerela,2016
-2917,246,Product 498,299,Adoor,8,2392,Kerela,2016
-2918,246,Product 183,102,Adoor,10,1020,Kerela,2016
-2919,246,Product 93,206,Adoor,3,618,Kerela,2016
+2908,246,Product 267,114,Adoor,7,798,Kerala,2016
+2909,246,Product 423,182,Adoor,7,1274,Kerala,2016
+2910,246,Product 305,146,Adoor,3,438,Kerala,2016
+2911,246,Product 384,65,Adoor,6,390,Kerala,2016
+2912,246,Product 295,247,Adoor,9,2223,Kerala,2016
+2913,246,Product 27,228,Adoor,4,912,Kerala,2016
+2914,246,Product 223,174,Adoor,7,1218,Kerala,2016
+2915,246,Product 456,135,Adoor,5,675,Kerala,2016
+2916,246,Product 361,120,Adoor,8,960,Kerala,2016
+2917,246,Product 498,299,Adoor,8,2392,Kerala,2016
+2918,246,Product 183,102,Adoor,10,1020,Kerala,2016
+2919,246,Product 93,206,Adoor,3,618,Kerala,2016
 2920,247,Product 456,135,avadi  chennai,6,810,Tamil Nadu,2016
 2921,247,Product 354,83,avadi  chennai,8,664,Tamil Nadu,2016
 2922,247,Product 167,202,avadi  chennai,3,606,Tamil Nadu,2016
@@ -2930,18 +2930,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 2929,247,Product 274,268,avadi  chennai,5,1340,Tamil Nadu,2016
 2930,247,Product 372,132,avadi  chennai,3,396,Tamil Nadu,2016
 2931,247,Product 194,158,avadi  chennai,10,1580,Tamil Nadu,2016
-2932,248,Product 106,190,Trichur,7,1330,Kerela,2016
-2933,248,Product 45,260,Trichur,4,1040,Kerela,2016
-2934,248,Product 308,249,Trichur,10,2490,Kerela,2016
-2935,248,Product 398,163,Trichur,4,652,Kerela,2016
-2936,248,Product 227,108,Trichur,8,864,Kerela,2016
-2937,248,Product 472,252,Trichur,8,2016,Kerela,2016
-2938,248,Product 305,146,Trichur,9,1314,Kerela,2016
-2939,248,Product 2,239,Trichur,2,478,Kerela,2016
-2940,248,Product 64,211,Trichur,9,1899,Kerela,2016
-2941,248,Product 177,130,Trichur,4,520,Kerela,2016
-2942,248,Product 460,240,Trichur,5,1200,Kerela,2016
-2943,248,Product 271,119,Trichur,7,833,Kerela,2016
+2932,248,Product 106,190,Trichur,7,1330,Kerala,2016
+2933,248,Product 45,260,Trichur,4,1040,Kerala,2016
+2934,248,Product 308,249,Trichur,10,2490,Kerala,2016
+2935,248,Product 398,163,Trichur,4,652,Kerala,2016
+2936,248,Product 227,108,Trichur,8,864,Kerala,2016
+2937,248,Product 472,252,Trichur,8,2016,Kerala,2016
+2938,248,Product 305,146,Trichur,9,1314,Kerala,2016
+2939,248,Product 2,239,Trichur,2,478,Kerala,2016
+2940,248,Product 64,211,Trichur,9,1899,Kerala,2016
+2941,248,Product 177,130,Trichur,4,520,Kerala,2016
+2942,248,Product 460,240,Trichur,5,1200,Kerala,2016
+2943,248,Product 271,119,Trichur,7,833,Kerala,2016
 2944,249,Product 55,159,Kandivali East Mumbai,10,1590,Maharashtra,2016
 2945,249,Product 276,210,Kandivali East Mumbai,6,1260,Maharashtra,2016
 2946,249,Product 305,146,Kandivali East Mumbai,9,1314,Maharashtra,2016
@@ -3028,16 +3028,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3027,256,Product 329,148,dehradun,10,1480,Uttarakhand,2016
 3028,256,Product 341,279,dehradun,10,2790,Uttarakhand,2016
 3029,256,Product 269,123,dehradun,7,861,Uttarakhand,2016
-3030,257,Product 407,300,Balasore,6,1800,Odisha,2016
-3031,257,Product 10,205,Balasore,2,410,Odisha,2016
-3032,257,Product 405,275,Balasore,5,1375,Odisha,2016
-3033,257,Product 423,182,Balasore,4,728,Odisha,2016
-3034,257,Product 181,238,Balasore,4,952,Odisha,2016
-3035,257,Product 460,240,Balasore,2,480,Odisha,2016
-3036,257,Product 427,216,Balasore,10,2160,Odisha,2016
-3037,257,Product 359,245,Balasore,6,1470,Odisha,2016
-3038,257,Product 236,72,Balasore,1,72,Odisha,2016
-3039,257,Product 195,69,Balasore,5,345,Odisha,2016
+3030,257,Product 407,300,Balasore,6,1800,Orissa,2016
+3031,257,Product 10,205,Balasore,2,410,Orissa,2016
+3032,257,Product 405,275,Balasore,5,1375,Orissa,2016
+3033,257,Product 423,182,Balasore,4,728,Orissa,2016
+3034,257,Product 181,238,Balasore,4,952,Orissa,2016
+3035,257,Product 460,240,Balasore,2,480,Orissa,2016
+3036,257,Product 427,216,Balasore,10,2160,Orissa,2016
+3037,257,Product 359,245,Balasore,6,1470,Orissa,2016
+3038,257,Product 236,72,Balasore,1,72,Orissa,2016
+3039,257,Product 195,69,Balasore,5,345,Orissa,2016
 3040,258,Product 26,125,Pune,3,375,Maharashtra,2016
 3041,258,Product 370,57,Pune,4,228,Maharashtra,2016
 3042,258,Product 260,167,Pune,10,1670,Maharashtra,2016
@@ -3386,15 +3386,15 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3385,284,Product 391,126,sangli,2,252,Maharashtra,2017
 3386,284,Product 341,279,sangli,10,2790,Maharashtra,2017
 3387,284,Product 358,176,sangli,9,1584,Maharashtra,2017
-3388,285,Product 78,168,ANGAMALY,6,1008,Kerela,2017
-3389,285,Product 80,228,ANGAMALY,2,456,Kerela,2017
-3390,285,Product 213,234,ANGAMALY,10,2340,Kerela,2017
-3391,285,Product 415,86,ANGAMALY,8,688,Kerela,2017
-3392,285,Product 190,210,ANGAMALY,9,1890,Kerela,2017
-3393,285,Product 163,71,ANGAMALY,4,284,Kerela,2017
-3394,285,Product 385,50,ANGAMALY,7,350,Kerela,2017
-3395,285,Product 236,72,ANGAMALY,6,432,Kerela,2017
-3396,285,Product 37,260,ANGAMALY,10,2600,Kerela,2017
+3388,285,Product 78,168,ANGAMALY,6,1008,Kerala,2017
+3389,285,Product 80,228,ANGAMALY,2,456,Kerala,2017
+3390,285,Product 213,234,ANGAMALY,10,2340,Kerala,2017
+3391,285,Product 415,86,ANGAMALY,8,688,Kerala,2017
+3392,285,Product 190,210,ANGAMALY,9,1890,Kerala,2017
+3393,285,Product 163,71,ANGAMALY,4,284,Kerala,2017
+3394,285,Product 385,50,ANGAMALY,7,350,Kerala,2017
+3395,285,Product 236,72,ANGAMALY,6,432,Kerala,2017
+3396,285,Product 37,260,ANGAMALY,10,2600,Kerala,2017
 3397,286,Product 447,75,Bhilwara,6,450,Rajasthan,2017
 3398,286,Product 260,167,Bhilwara,5,835,Rajasthan,2017
 3399,286,Product 317,76,Bhilwara,6,456,Rajasthan,2017
@@ -3495,19 +3495,19 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3494,293,Product 162,112,AMRITSAR,9,1008,Punjab,2017
 3495,293,Product 81,109,AMRITSAR,10,1090,Punjab,2017
 3496,293,Product 236,72,AMRITSAR,9,648,Punjab,2017
-3497,294,Product 487,140,ALAPPUZHA,2,280,Kerela,2017
-3498,294,Product 91,68,ALAPPUZHA,10,680,Kerela,2017
-3499,294,Product 66,270,ALAPPUZHA,3,810,Kerela,2017
-3500,294,Product 97,89,ALAPPUZHA,1,89,Kerela,2017
-3501,294,Product 352,299,ALAPPUZHA,6,1794,Kerela,2017
-3502,294,Product 109,126,ALAPPUZHA,6,756,Kerela,2017
-3503,294,Product 172,194,ALAPPUZHA,7,1358,Kerela,2017
-3504,294,Product 7,300,ALAPPUZHA,1,300,Kerela,2017
-3505,294,Product 460,240,ALAPPUZHA,9,2160,Kerela,2017
-3506,294,Product 52,275,ALAPPUZHA,9,2475,Kerela,2017
-3507,294,Product 238,225,ALAPPUZHA,3,675,Kerela,2017
-3508,294,Product 494,216,ALAPPUZHA,2,432,Kerela,2017
-3509,294,Product 256,97,ALAPPUZHA,1,97,Kerela,2017
+3497,294,Product 487,140,ALAPPUZHA,2,280,Kerala,2017
+3498,294,Product 91,68,ALAPPUZHA,10,680,Kerala,2017
+3499,294,Product 66,270,ALAPPUZHA,3,810,Kerala,2017
+3500,294,Product 97,89,ALAPPUZHA,1,89,Kerala,2017
+3501,294,Product 352,299,ALAPPUZHA,6,1794,Kerala,2017
+3502,294,Product 109,126,ALAPPUZHA,6,756,Kerala,2017
+3503,294,Product 172,194,ALAPPUZHA,7,1358,Kerala,2017
+3504,294,Product 7,300,ALAPPUZHA,1,300,Kerala,2017
+3505,294,Product 460,240,ALAPPUZHA,9,2160,Kerala,2017
+3506,294,Product 52,275,ALAPPUZHA,9,2475,Kerala,2017
+3507,294,Product 238,225,ALAPPUZHA,3,675,Kerala,2017
+3508,294,Product 494,216,ALAPPUZHA,2,432,Kerala,2017
+3509,294,Product 256,97,ALAPPUZHA,1,97,Kerala,2017
 3510,295,Product 338,155,Mandya,1,155,Karnataka,2017
 3511,295,Product 148,230,Mandya,6,1380,Karnataka,2017
 3512,295,Product 44,109,Mandya,9,981,Karnataka,2017
@@ -3570,15 +3570,15 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3569,299,Product 4,103,bhuj,7,721,Gujarat,2017
 3570,299,Product 285,144,bhuj,1,144,Gujarat,2017
 3571,299,Product 279,242,bhuj,9,2178,Gujarat,2017
-3572,300,Product 198,125,Mavelikara,1,125,Kerela,2017
-3573,300,Product 496,240,Mavelikara,2,480,Kerela,2017
-3574,300,Product 41,50,Mavelikara,10,500,Kerela,2017
-3575,300,Product 144,55,Mavelikara,7,385,Kerela,2017
-3576,300,Product 50,243,Mavelikara,9,2187,Kerela,2017
-3577,300,Product 423,182,Mavelikara,4,728,Kerela,2017
-3578,300,Product 150,111,Mavelikara,4,444,Kerela,2017
-3579,300,Product 449,59,Mavelikara,8,472,Kerela,2017
-3580,300,Product 153,164,Mavelikara,2,328,Kerela,2017
+3572,300,Product 198,125,Mavelikara,1,125,Kerala,2017
+3573,300,Product 496,240,Mavelikara,2,480,Kerala,2017
+3574,300,Product 41,50,Mavelikara,10,500,Kerala,2017
+3575,300,Product 144,55,Mavelikara,7,385,Kerala,2017
+3576,300,Product 50,243,Mavelikara,9,2187,Kerala,2017
+3577,300,Product 423,182,Mavelikara,4,728,Kerala,2017
+3578,300,Product 150,111,Mavelikara,4,444,Kerala,2017
+3579,300,Product 449,59,Mavelikara,8,472,Kerala,2017
+3580,300,Product 153,164,Mavelikara,2,328,Kerala,2017
 3581,301,Product 280,139,visakhapatnam,5,695,Andhra Pradesh,2017
 3582,301,Product 71,296,visakhapatnam,8,2368,Andhra Pradesh,2017
 3583,301,Product 224,142,visakhapatnam,2,284,Andhra Pradesh,2017
@@ -3648,26 +3648,26 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3647,306,Product 18,136,Mednapur,3,408,Andhra Pradesh,2017
 3648,306,Product 274,268,Mednapur,1,268,Andhra Pradesh,2017
 3649,306,Product 3,179,Mednapur,10,1790,Andhra Pradesh,2017
-3650,307,Product 407,300,Bhadrak,6,1800,Odhisha,2017
-3651,307,Product 375,298,Bhadrak,8,2384,Odhisha,2017
-3652,307,Product 104,211,Bhadrak,9,1899,Odhisha,2017
-3653,307,Product 21,281,Bhadrak,5,1405,Odhisha,2017
-3654,307,Product 307,206,Bhadrak,6,1236,Odhisha,2017
-3655,307,Product 125,242,Bhadrak,7,1694,Odhisha,2017
-3656,307,Product 360,189,Bhadrak,3,567,Odhisha,2017
-3657,307,Product 238,225,Bhadrak,2,450,Odhisha,2017
-3658,307,Product 200,206,Bhadrak,5,1030,Odhisha,2017
-3659,307,Product 466,72,Bhadrak,3,216,Odhisha,2017
-3660,307,Product 251,218,Bhadrak,6,1308,Odhisha,2017
-3661,307,Product 72,195,Bhadrak,6,1170,Odhisha,2017
-3662,307,Product 113,133,Bhadrak,6,798,Odhisha,2017
-3663,307,Product 438,136,Bhadrak,8,1088,Odhisha,2017
-3664,307,Product 430,242,Bhadrak,10,2420,Odhisha,2017
-3665,307,Product 62,52,Bhadrak,10,520,Odhisha,2017
-3666,307,Product 286,76,Bhadrak,1,76,Odhisha,2017
-3667,307,Product 163,71,Bhadrak,1,71,Odhisha,2017
-3668,307,Product 236,72,Bhadrak,6,432,Odhisha,2017
-3669,307,Product 42,128,Bhadrak,6,768,Odhisha,2017
+3650,307,Product 407,300,Bhadrak,6,1800,Orissa,2017
+3651,307,Product 375,298,Bhadrak,8,2384,Orissa,2017
+3652,307,Product 104,211,Bhadrak,9,1899,Orissa,2017
+3653,307,Product 21,281,Bhadrak,5,1405,Orissa,2017
+3654,307,Product 307,206,Bhadrak,6,1236,Orissa,2017
+3655,307,Product 125,242,Bhadrak,7,1694,Orissa,2017
+3656,307,Product 360,189,Bhadrak,3,567,Orissa,2017
+3657,307,Product 238,225,Bhadrak,2,450,Orissa,2017
+3658,307,Product 200,206,Bhadrak,5,1030,Orissa,2017
+3659,307,Product 466,72,Bhadrak,3,216,Orissa,2017
+3660,307,Product 251,218,Bhadrak,6,1308,Orissa,2017
+3661,307,Product 72,195,Bhadrak,6,1170,Orissa,2017
+3662,307,Product 113,133,Bhadrak,6,798,Orissa,2017
+3663,307,Product 438,136,Bhadrak,8,1088,Orissa,2017
+3664,307,Product 430,242,Bhadrak,10,2420,Orissa,2017
+3665,307,Product 62,52,Bhadrak,10,520,Orissa,2017
+3666,307,Product 286,76,Bhadrak,1,76,Orissa,2017
+3667,307,Product 163,71,Bhadrak,1,71,Orissa,2017
+3668,307,Product 236,72,Bhadrak,6,432,Orissa,2017
+3669,307,Product 42,128,Bhadrak,6,768,Orissa,2017
 3670,308,Product 284,193,Jungadh,2,386,Gujarat,2017
 3671,308,Product 479,53,Jungadh,5,265,Gujarat,2017
 3672,308,Product 173,84,Jungadh,10,840,Gujarat,2017
@@ -3785,22 +3785,22 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3784,317,Product 112,193,hoshiarpur,5,965,Punjab,2017
 3785,317,Product 156,184,hoshiarpur,9,1656,Punjab,2017
 3786,317,Product 66,270,hoshiarpur,7,1890,Punjab,2017
-3787,318,Product 170,83,malappyram,2,166,Kerela,2017
-3788,318,Product 230,165,malappyram,2,330,Kerela,2017
-3789,318,Product 71,296,malappyram,4,1184,Kerela,2017
-3790,318,Product 287,233,malappyram,2,466,Kerela,2017
-3791,318,Product 238,225,malappyram,1,225,Kerela,2017
-3792,318,Product 483,288,malappyram,10,2880,Kerela,2017
-3793,318,Product 451,214,malappyram,10,2140,Kerela,2017
-3794,318,Product 238,225,malappyram,10,2250,Kerela,2017
-3795,318,Product 352,299,malappyram,2,598,Kerela,2017
-3796,318,Product 165,184,malappyram,7,1288,Kerela,2017
-3797,318,Product 338,155,malappyram,7,1085,Kerela,2017
-3798,318,Product 414,136,malappyram,1,136,Kerela,2017
-3799,318,Product 54,291,malappyram,5,1455,Kerela,2017
-3800,318,Product 489,283,malappyram,6,1698,Kerela,2017
-3801,318,Product 479,53,malappyram,1,53,Kerela,2017
-3802,318,Product 239,300,malappyram,10,3000,Kerela,2017
+3787,318,Product 170,83,malappyram,2,166,Kerala,2017
+3788,318,Product 230,165,malappyram,2,330,Kerala,2017
+3789,318,Product 71,296,malappyram,4,1184,Kerala,2017
+3790,318,Product 287,233,malappyram,2,466,Kerala,2017
+3791,318,Product 238,225,malappyram,1,225,Kerala,2017
+3792,318,Product 483,288,malappyram,10,2880,Kerala,2017
+3793,318,Product 451,214,malappyram,10,2140,Kerala,2017
+3794,318,Product 238,225,malappyram,10,2250,Kerala,2017
+3795,318,Product 352,299,malappyram,2,598,Kerala,2017
+3796,318,Product 165,184,malappyram,7,1288,Kerala,2017
+3797,318,Product 338,155,malappyram,7,1085,Kerala,2017
+3798,318,Product 414,136,malappyram,1,136,Kerala,2017
+3799,318,Product 54,291,malappyram,5,1455,Kerala,2017
+3800,318,Product 489,283,malappyram,6,1698,Kerala,2017
+3801,318,Product 479,53,malappyram,1,53,Kerala,2017
+3802,318,Product 239,300,malappyram,10,3000,Kerala,2017
 3803,319,Product 486,217,Vijaypur,9,1953,Uttarakhand,2017
 3804,319,Product 257,128,Vijaypur,8,1024,Uttarakhand,2017
 3805,319,Product 51,126,Vijaypur,8,1008,Uttarakhand,2017
@@ -3810,15 +3810,15 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3809,319,Product 151,253,Vijaypur,10,2530,Uttarakhand,2017
 3810,319,Product 355,182,Vijaypur,3,546,Uttarakhand,2017
 3811,319,Product 82,150,Vijaypur,4,600,Uttarakhand,2017
-3812,320,Product 120,68,Balsore,3,204,Odhisha,2017
-3813,320,Product 420,258,Balsore,8,2064,Odhisha,2017
-3814,320,Product 445,86,Balsore,1,86,Odhisha,2017
-3815,320,Product 421,194,Balsore,1,194,Odhisha,2017
-3816,320,Product 267,114,Balsore,10,1140,Odhisha,2017
-3817,320,Product 222,193,Balsore,5,965,Odhisha,2017
-3818,320,Product 500,227,Balsore,4,908,Odhisha,2017
-3819,320,Product 120,68,Balsore,3,204,Odhisha,2017
-3820,320,Product 258,128,Balsore,1,128,Odhisha,2017
+3812,320,Product 120,68,Balsore,3,204,Orissa,2017
+3813,320,Product 420,258,Balsore,8,2064,Orissa,2017
+3814,320,Product 445,86,Balsore,1,86,Orissa,2017
+3815,320,Product 421,194,Balsore,1,194,Orissa,2017
+3816,320,Product 267,114,Balsore,10,1140,Orissa,2017
+3817,320,Product 222,193,Balsore,5,965,Orissa,2017
+3818,320,Product 500,227,Balsore,4,908,Orissa,2017
+3819,320,Product 120,68,Balsore,3,204,Orissa,2017
+3820,320,Product 258,128,Balsore,1,128,Orissa,2017
 3821,321,Product 316,88,Puttaparthy,1,88,Andhra Pradesh,2017
 3822,321,Product 403,62,Puttaparthy,2,124,Andhra Pradesh,2017
 3823,321,Product 225,122,Puttaparthy,6,732,Andhra Pradesh,2017
@@ -3931,16 +3931,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 3930,329,Product 129,118,Patiala,10,1180,Punjab,2017
 3931,329,Product 492,215,Patiala,6,1290,Punjab,2017
 3932,329,Product 341,279,Patiala,10,2790,Punjab,2017
-3933,330,Product 255,222,kothamangalam,2,444,Kerela,2017
-3934,330,Product 335,104,kothamangalam,2,208,Kerela,2017
-3935,330,Product 262,257,kothamangalam,8,2056,Kerela,2017
-3936,330,Product 123,53,kothamangalam,5,265,Kerela,2017
-3937,330,Product 160,107,kothamangalam,8,856,Kerela,2017
-3938,330,Product 331,218,kothamangalam,6,1308,Kerela,2017
-3939,330,Product 428,238,kothamangalam,4,952,Kerela,2017
-3940,330,Product 486,217,kothamangalam,1,217,Kerela,2017
-3941,330,Product 183,102,kothamangalam,5,510,Kerela,2017
-3942,330,Product 438,136,kothamangalam,6,816,Kerela,2017
+3933,330,Product 255,222,kothamangalam,2,444,Kerala,2017
+3934,330,Product 335,104,kothamangalam,2,208,Kerala,2017
+3935,330,Product 262,257,kothamangalam,8,2056,Kerala,2017
+3936,330,Product 123,53,kothamangalam,5,265,Kerala,2017
+3937,330,Product 160,107,kothamangalam,8,856,Kerala,2017
+3938,330,Product 331,218,kothamangalam,6,1308,Kerala,2017
+3939,330,Product 428,238,kothamangalam,4,952,Kerala,2017
+3940,330,Product 486,217,kothamangalam,1,217,Kerala,2017
+3941,330,Product 183,102,kothamangalam,5,510,Kerala,2017
+3942,330,Product 438,136,kothamangalam,6,816,Kerala,2017
 3943,331,Product 484,115,MANGALAGIRI,3,345,Andhra Pradesh,2017
 3944,331,Product 83,262,MANGALAGIRI,3,786,Andhra Pradesh,2017
 3945,331,Product 312,92,MANGALAGIRI,5,460,Andhra Pradesh,2017
@@ -4066,21 +4066,21 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4065,342,Product 308,249,Mandsaur,8,1992,Madhya Pradesh,2017
 4066,342,Product 173,84,Mandsaur,5,420,Madhya Pradesh,2017
 4067,342,Product 162,112,Mandsaur,4,448,Madhya Pradesh,2017
-4068,343,Product 256,97,irinjalakuda,3,291,Kerela,2017
-4069,343,Product 52,275,irinjalakuda,7,1925,Kerela,2017
-4070,343,Product 342,120,irinjalakuda,2,240,Kerela,2017
-4071,343,Product 386,96,irinjalakuda,5,480,Kerela,2017
-4072,343,Product 121,85,irinjalakuda,9,765,Kerela,2017
-4073,343,Product 63,255,irinjalakuda,3,765,Kerela,2017
-4074,343,Product 430,242,irinjalakuda,10,2420,Kerela,2017
-4075,343,Product 243,157,irinjalakuda,9,1413,Kerela,2017
-4076,343,Product 393,258,irinjalakuda,5,1290,Kerela,2017
-4077,343,Product 390,294,irinjalakuda,10,2940,Kerela,2017
-4078,343,Product 239,300,irinjalakuda,8,2400,Kerela,2017
-4079,343,Product 298,91,irinjalakuda,7,637,Kerela,2017
-4080,343,Product 358,176,irinjalakuda,3,528,Kerela,2017
-4081,343,Product 36,64,irinjalakuda,2,128,Kerela,2017
-4082,343,Product 208,69,irinjalakuda,4,276,Kerela,2017
+4068,343,Product 256,97,irinjalakuda,3,291,Kerala,2017
+4069,343,Product 52,275,irinjalakuda,7,1925,Kerala,2017
+4070,343,Product 342,120,irinjalakuda,2,240,Kerala,2017
+4071,343,Product 386,96,irinjalakuda,5,480,Kerala,2017
+4072,343,Product 121,85,irinjalakuda,9,765,Kerala,2017
+4073,343,Product 63,255,irinjalakuda,3,765,Kerala,2017
+4074,343,Product 430,242,irinjalakuda,10,2420,Kerala,2017
+4075,343,Product 243,157,irinjalakuda,9,1413,Kerala,2017
+4076,343,Product 393,258,irinjalakuda,5,1290,Kerala,2017
+4077,343,Product 390,294,irinjalakuda,10,2940,Kerala,2017
+4078,343,Product 239,300,irinjalakuda,8,2400,Kerala,2017
+4079,343,Product 298,91,irinjalakuda,7,637,Kerala,2017
+4080,343,Product 358,176,irinjalakuda,3,528,Kerala,2017
+4081,343,Product 36,64,irinjalakuda,2,128,Kerala,2017
+4082,343,Product 208,69,irinjalakuda,4,276,Kerala,2017
 4083,344,Product 34,54,Gurgaon,3,162,Haryana,2017
 4084,344,Product 87,90,Gurgaon,3,270,Haryana,2017
 4085,344,Product 387,168,Gurgaon,5,840,Haryana,2017
@@ -4122,48 +4122,48 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4121,346,Product 66,270,Jalandhar City,10,2700,Punjab,2017
 4122,346,Product 479,53,Jalandhar City,1,53,Punjab,2017
 4123,346,Product 51,126,Jalandhar City,1,126,Punjab,2017
-4124,347,Product 426,53,Manvi taluk,8,424,Karnatka,2017
-4125,347,Product 440,218,Manvi taluk,8,1744,Karnatka,2017
-4126,347,Product 15,238,Manvi taluk,3,714,Karnatka,2017
-4127,347,Product 376,292,Manvi taluk,1,292,Karnatka,2017
-4128,347,Product 480,125,Manvi taluk,6,750,Karnatka,2017
-4129,347,Product 482,202,Manvi taluk,9,1818,Karnatka,2017
-4130,347,Product 176,260,Manvi taluk,6,1560,Karnatka,2017
-4131,347,Product 213,234,Manvi taluk,4,936,Karnatka,2017
-4132,347,Product 111,278,Manvi taluk,6,1668,Karnatka,2017
-4133,347,Product 355,182,Manvi taluk,3,546,Karnatka,2017
-4134,347,Product 410,296,Manvi taluk,7,2072,Karnatka,2017
-4135,348,Product 96,278,Jharsuguda,8,2224,Karnatka,2017
-4136,348,Product 45,260,Jharsuguda,1,260,Karnatka,2017
-4137,348,Product 189,166,Jharsuguda,5,830,Karnatka,2017
-4138,348,Product 435,218,Jharsuguda,9,1962,Karnatka,2017
-4139,348,Product 335,104,Jharsuguda,4,416,Karnatka,2017
-4140,348,Product 50,243,Jharsuguda,4,972,Karnatka,2017
-4141,348,Product 27,228,Jharsuguda,7,1596,Karnatka,2017
-4142,348,Product 422,61,Jharsuguda,6,366,Karnatka,2017
-4143,348,Product 335,104,Jharsuguda,4,416,Karnatka,2017
-4144,348,Product 410,296,Jharsuguda,9,2664,Karnatka,2017
-4145,348,Product 120,68,Jharsuguda,5,340,Karnatka,2017
-4146,348,Product 253,178,Jharsuguda,6,1068,Karnatka,2017
-4147,349,Product 181,238,udupi,9,2142,Kerela,2017
-4148,349,Product 252,205,udupi,10,2050,Kerela,2017
-4149,349,Product 298,91,udupi,4,364,Kerela,2017
-4150,349,Product 268,217,udupi,6,1302,Kerela,2017
-4151,349,Product 345,91,udupi,1,91,Kerela,2017
-4152,349,Product 126,177,udupi,6,1062,Kerela,2017
-4153,349,Product 343,191,udupi,1,191,Kerela,2017
-4154,349,Product 81,109,udupi,7,763,Kerela,2017
-4155,349,Product 304,300,udupi,10,3000,Kerela,2017
-4156,350,Product 481,251,Tuticorin,6,1506,Kerela,2017
-4157,350,Product 35,292,Tuticorin,7,2044,Kerela,2017
-4158,350,Product 126,177,Tuticorin,10,1770,Kerela,2017
-4159,350,Product 120,68,Tuticorin,7,476,Kerela,2017
-4160,350,Product 131,141,Tuticorin,8,1128,Kerela,2017
-4161,350,Product 481,251,Tuticorin,3,753,Kerela,2017
-4162,350,Product 425,256,Tuticorin,3,768,Kerela,2017
-4163,350,Product 303,285,Tuticorin,7,1995,Kerela,2017
-4164,350,Product 494,216,Tuticorin,1,216,Kerela,2017
-4165,350,Product 351,192,Tuticorin,7,1344,Kerela,2017
+4124,347,Product 426,53,Manvi taluk,8,424,Karnataka,2017
+4125,347,Product 440,218,Manvi taluk,8,1744,Karnataka,2017
+4126,347,Product 15,238,Manvi taluk,3,714,Karnataka,2017
+4127,347,Product 376,292,Manvi taluk,1,292,Karnataka,2017
+4128,347,Product 480,125,Manvi taluk,6,750,Karnataka,2017
+4129,347,Product 482,202,Manvi taluk,9,1818,Karnataka,2017
+4130,347,Product 176,260,Manvi taluk,6,1560,Karnataka,2017
+4131,347,Product 213,234,Manvi taluk,4,936,Karnataka,2017
+4132,347,Product 111,278,Manvi taluk,6,1668,Karnataka,2017
+4133,347,Product 355,182,Manvi taluk,3,546,Karnataka,2017
+4134,347,Product 410,296,Manvi taluk,7,2072,Karnataka,2017
+4135,348,Product 96,278,Jharsuguda,8,2224,Karnataka,2017
+4136,348,Product 45,260,Jharsuguda,1,260,Karnataka,2017
+4137,348,Product 189,166,Jharsuguda,5,830,Karnataka,2017
+4138,348,Product 435,218,Jharsuguda,9,1962,Karnataka,2017
+4139,348,Product 335,104,Jharsuguda,4,416,Karnataka,2017
+4140,348,Product 50,243,Jharsuguda,4,972,Karnataka,2017
+4141,348,Product 27,228,Jharsuguda,7,1596,Karnataka,2017
+4142,348,Product 422,61,Jharsuguda,6,366,Karnataka,2017
+4143,348,Product 335,104,Jharsuguda,4,416,Karnataka,2017
+4144,348,Product 410,296,Jharsuguda,9,2664,Karnataka,2017
+4145,348,Product 120,68,Jharsuguda,5,340,Karnataka,2017
+4146,348,Product 253,178,Jharsuguda,6,1068,Karnataka,2017
+4147,349,Product 181,238,udupi,9,2142,Kerala,2017
+4148,349,Product 252,205,udupi,10,2050,Kerala,2017
+4149,349,Product 298,91,udupi,4,364,Kerala,2017
+4150,349,Product 268,217,udupi,6,1302,Kerala,2017
+4151,349,Product 345,91,udupi,1,91,Kerala,2017
+4152,349,Product 126,177,udupi,6,1062,Kerala,2017
+4153,349,Product 343,191,udupi,1,191,Kerala,2017
+4154,349,Product 81,109,udupi,7,763,Kerala,2017
+4155,349,Product 304,300,udupi,10,3000,Kerala,2017
+4156,350,Product 481,251,Tuticorin,6,1506,Kerala,2017
+4157,350,Product 35,292,Tuticorin,7,2044,Kerala,2017
+4158,350,Product 126,177,Tuticorin,10,1770,Kerala,2017
+4159,350,Product 120,68,Tuticorin,7,476,Kerala,2017
+4160,350,Product 131,141,Tuticorin,8,1128,Kerala,2017
+4161,350,Product 481,251,Tuticorin,3,753,Kerala,2017
+4162,350,Product 425,256,Tuticorin,3,768,Kerala,2017
+4163,350,Product 303,285,Tuticorin,7,1995,Kerala,2017
+4164,350,Product 494,216,Tuticorin,1,216,Kerala,2017
+4165,350,Product 351,192,Tuticorin,7,1344,Kerala,2017
 4166,351,Product 345,91,chidambaram,4,364,Tamil Nadu,2017
 4167,351,Product 322,110,chidambaram,3,330,Tamil Nadu,2017
 4168,351,Product 484,115,chidambaram,6,690,Tamil Nadu,2017
@@ -4244,17 +4244,17 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4243,356,Product 474,109,Motinagar,3,327,New Delhi,2017
 4244,356,Product 449,59,Motinagar,5,295,New Delhi,2017
 4245,356,Product 333,53,Motinagar,7,371,New Delhi,2017
-4246,357,Product 397,64,Cannanore.,8,512,Kerela,2017
-4247,357,Product 396,291,Cannanore.,6,1746,Kerela,2017
-4248,357,Product 93,206,Cannanore.,5,1030,Kerela,2017
-4249,357,Product 15,238,Cannanore.,4,952,Kerela,2017
-4250,357,Product 388,228,Cannanore.,3,684,Kerela,2017
-4251,357,Product 43,81,Cannanore.,3,243,Kerela,2017
-4252,357,Product 98,254,Cannanore.,3,762,Kerela,2017
-4253,357,Product 209,262,Cannanore.,1,262,Kerela,2017
-4254,357,Product 170,83,Cannanore.,7,581,Kerela,2017
-4255,357,Product 492,215,Cannanore.,7,1505,Kerela,2017
-4256,357,Product 172,194,Cannanore.,8,1552,Kerela,2017
+4246,357,Product 397,64,Cannanore.,8,512,Kerala,2017
+4247,357,Product 396,291,Cannanore.,6,1746,Kerala,2017
+4248,357,Product 93,206,Cannanore.,5,1030,Kerala,2017
+4249,357,Product 15,238,Cannanore.,4,952,Kerala,2017
+4250,357,Product 388,228,Cannanore.,3,684,Kerala,2017
+4251,357,Product 43,81,Cannanore.,3,243,Kerala,2017
+4252,357,Product 98,254,Cannanore.,3,762,Kerala,2017
+4253,357,Product 209,262,Cannanore.,1,262,Kerala,2017
+4254,357,Product 170,83,Cannanore.,7,581,Kerala,2017
+4255,357,Product 492,215,Cannanore.,7,1505,Kerala,2017
+4256,357,Product 172,194,Cannanore.,8,1552,Kerala,2017
 4257,358,Product 51,126,SRIGANGANAGAR,10,1260,Rajasthan,2017
 4258,358,Product 474,109,SRIGANGANAGAR,1,109,Rajasthan,2017
 4259,358,Product 205,124,SRIGANGANAGAR,2,248,Rajasthan,2017
@@ -4329,18 +4329,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4328,363,Product 461,123,kakinada,10,1230,Maharashtra,2017
 4329,363,Product 236,72,kakinada,10,720,Maharashtra,2017
 4330,363,Product 123,53,kakinada,4,212,Maharashtra,2017
-4331,364,Product 328,118,sambalpur,10,1180,Odisha,2017
-4332,364,Product 328,118,sambalpur,5,590,Odisha,2017
-4333,364,Product 166,60,sambalpur,9,540,Odisha,2017
-4334,364,Product 204,185,sambalpur,4,740,Odisha,2017
-4335,364,Product 198,125,sambalpur,1,125,Odisha,2017
-4336,364,Product 274,268,sambalpur,3,804,Odisha,2017
-4337,364,Product 66,270,sambalpur,6,1620,Odisha,2017
-4338,364,Product 101,229,sambalpur,5,1145,Odisha,2017
-4339,364,Product 147,236,sambalpur,3,708,Odisha,2017
-4340,364,Product 204,185,sambalpur,10,1850,Odisha,2017
-4341,364,Product 173,84,sambalpur,9,756,Odisha,2017
-4342,364,Product 104,211,sambalpur,3,633,Odisha,2017
+4331,364,Product 328,118,sambalpur,10,1180,Orissa,2017
+4332,364,Product 328,118,sambalpur,5,590,Orissa,2017
+4333,364,Product 166,60,sambalpur,9,540,Orissa,2017
+4334,364,Product 204,185,sambalpur,4,740,Orissa,2017
+4335,364,Product 198,125,sambalpur,1,125,Orissa,2017
+4336,364,Product 274,268,sambalpur,3,804,Orissa,2017
+4337,364,Product 66,270,sambalpur,6,1620,Orissa,2017
+4338,364,Product 101,229,sambalpur,5,1145,Orissa,2017
+4339,364,Product 147,236,sambalpur,3,708,Orissa,2017
+4340,364,Product 204,185,sambalpur,10,1850,Orissa,2017
+4341,364,Product 173,84,sambalpur,9,756,Orissa,2017
+4342,364,Product 104,211,sambalpur,3,633,Orissa,2017
 4343,365,Product 223,174,Ahemdabad,4,696,Gujarat,2017
 4344,365,Product 322,110,Ahemdabad,2,220,Gujarat,2017
 4345,365,Product 345,91,Ahemdabad,1,91,Gujarat,2017
@@ -4623,30 +4623,30 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4622,388,Product 402,224,Chanakyapuri,4,896,New Delhi,2017
 4623,388,Product 460,240,Chanakyapuri,10,2400,New Delhi,2017
 4624,388,Product 189,166,Chanakyapuri,6,996,New Delhi,2017
-4625,389,Product 68,271,Kodunallur,7,1897,Kerela,2017
-4626,389,Product 261,140,Kodunallur,8,1120,Kerela,2017
-4627,389,Product 187,289,Kodunallur,4,1156,Kerela,2017
-4628,389,Product 331,218,Kodunallur,10,2180,Kerela,2017
-4629,389,Product 67,206,Kodunallur,2,412,Kerela,2017
-4630,389,Product 387,168,Kodunallur,10,1680,Kerela,2017
-4631,389,Product 478,102,Kodunallur,4,408,Kerela,2017
-4632,389,Product 286,76,Kodunallur,4,304,Kerela,2017
-4633,389,Product 410,296,Kodunallur,8,2368,Kerela,2017
-4634,389,Product 90,255,Kodunallur,10,2550,Kerela,2017
-4635,390,Product 427,216,North Parur,5,1080,Kerela,2017
-4636,390,Product 51,126,North Parur,3,378,Kerela,2017
-4637,390,Product 443,244,North Parur,5,1220,Kerela,2017
-4638,390,Product 34,54,North Parur,3,162,Kerela,2017
-4639,390,Product 419,140,North Parur,9,1260,Kerela,2017
-4640,390,Product 472,252,North Parur,4,1008,Kerela,2017
-4641,390,Product 462,168,North Parur,6,1008,Kerela,2017
-4642,390,Product 391,126,North Parur,2,252,Kerela,2017
-4643,390,Product 369,110,North Parur,8,880,Kerela,2017
-4644,390,Product 38,150,North Parur,4,600,Kerela,2017
-4645,390,Product 195,69,North Parur,10,690,Kerela,2017
-4646,390,Product 379,51,North Parur,9,459,Kerela,2017
-4647,390,Product 274,268,North Parur,3,804,Kerela,2017
-4648,390,Product 135,164,North Parur,10,1640,Kerela,2017
+4625,389,Product 68,271,Kodunallur,7,1897,Kerala,2017
+4626,389,Product 261,140,Kodunallur,8,1120,Kerala,2017
+4627,389,Product 187,289,Kodunallur,4,1156,Kerala,2017
+4628,389,Product 331,218,Kodunallur,10,2180,Kerala,2017
+4629,389,Product 67,206,Kodunallur,2,412,Kerala,2017
+4630,389,Product 387,168,Kodunallur,10,1680,Kerala,2017
+4631,389,Product 478,102,Kodunallur,4,408,Kerala,2017
+4632,389,Product 286,76,Kodunallur,4,304,Kerala,2017
+4633,389,Product 410,296,Kodunallur,8,2368,Kerala,2017
+4634,389,Product 90,255,Kodunallur,10,2550,Kerala,2017
+4635,390,Product 427,216,North Parur,5,1080,Kerala,2017
+4636,390,Product 51,126,North Parur,3,378,Kerala,2017
+4637,390,Product 443,244,North Parur,5,1220,Kerala,2017
+4638,390,Product 34,54,North Parur,3,162,Kerala,2017
+4639,390,Product 419,140,North Parur,9,1260,Kerala,2017
+4640,390,Product 472,252,North Parur,4,1008,Kerala,2017
+4641,390,Product 462,168,North Parur,6,1008,Kerala,2017
+4642,390,Product 391,126,North Parur,2,252,Kerala,2017
+4643,390,Product 369,110,North Parur,8,880,Kerala,2017
+4644,390,Product 38,150,North Parur,4,600,Kerala,2017
+4645,390,Product 195,69,North Parur,10,690,Kerala,2017
+4646,390,Product 379,51,North Parur,9,459,Kerala,2017
+4647,390,Product 274,268,North Parur,3,804,Kerala,2017
+4648,390,Product 135,164,North Parur,10,1640,Kerala,2017
 4649,391,Product 20,295,Margao,7,2065,Goa,2017
 4650,391,Product 290,118,Margao,9,1062,Goa,2017
 4651,391,Product 242,204,Margao,10,2040,Goa,2017
@@ -4672,16 +4672,16 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4671,392,Product 75,108,Jhargram,4,432,West Bengal,2017
 4672,392,Product 173,84,Jhargram,4,336,West Bengal,2017
 4673,392,Product 435,218,Jhargram,1,218,West Bengal,2017
-4674,393,Product 340,172,Kozikode,8,1376,Kerela,2017
-4675,393,Product 51,126,Kozikode,1,126,Kerela,2017
-4676,393,Product 411,157,Kozikode,10,1570,Kerela,2017
-4677,393,Product 172,194,Kozikode,1,194,Kerela,2017
-4678,393,Product 467,144,Kozikode,7,1008,Kerela,2017
-4679,393,Product 189,166,Kozikode,1,166,Kerela,2017
-4680,393,Product 261,140,Kozikode,5,700,Kerela,2017
-4681,393,Product 163,71,Kozikode,3,213,Kerela,2017
-4682,393,Product 36,64,Kozikode,2,128,Kerela,2017
-4683,393,Product 225,122,Kozikode,4,488,Kerela,2017
+4674,393,Product 340,172,Kozikode,8,1376,Kerala,2017
+4675,393,Product 51,126,Kozikode,1,126,Kerala,2017
+4676,393,Product 411,157,Kozikode,10,1570,Kerala,2017
+4677,393,Product 172,194,Kozikode,1,194,Kerala,2017
+4678,393,Product 467,144,Kozikode,7,1008,Kerala,2017
+4679,393,Product 189,166,Kozikode,1,166,Kerala,2017
+4680,393,Product 261,140,Kozikode,5,700,Kerala,2017
+4681,393,Product 163,71,Kozikode,3,213,Kerala,2017
+4682,393,Product 36,64,Kozikode,2,128,Kerala,2017
+4683,393,Product 225,122,Kozikode,4,488,Kerala,2017
 4684,394,Product 311,266,pattukottai,5,1330,Tamil Nadu,2017
 4685,394,Product 497,264,pattukottai,3,792,Tamil Nadu,2017
 4686,394,Product 219,227,pattukottai,4,908,Tamil Nadu,2017
@@ -4938,21 +4938,21 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 4937,413,Product 421,194,DILSHAD GARDEN,9,1746,New Delhi,2018
 4938,413,Product 492,215,DILSHAD GARDEN,5,1075,New Delhi,2018
 4939,413,Product 417,125,DILSHAD GARDEN,2,250,New Delhi,2018
-4940,414,Product 206,205,Berhampur,9,1845,Odisha,2018
-4941,414,Product 429,204,Berhampur,8,1632,Odisha,2018
-4942,414,Product 147,236,Berhampur,5,1180,Odisha,2018
-4943,414,Product 412,136,Berhampur,4,544,Odisha,2018
-4944,414,Product 224,142,Berhampur,9,1278,Odisha,2018
-4945,414,Product 344,300,Berhampur,7,2100,Odisha,2018
-4946,414,Product 479,53,Berhampur,7,371,Odisha,2018
-4947,414,Product 279,242,Berhampur,6,1452,Odisha,2018
-4948,414,Product 287,233,Berhampur,10,2330,Odisha,2018
-4949,414,Product 417,125,Berhampur,10,1250,Odisha,2018
-4950,414,Product 332,151,Berhampur,7,1057,Odisha,2018
-4951,414,Product 32,197,Berhampur,6,1182,Odisha,2018
-4952,414,Product 493,240,Berhampur,1,240,Odisha,2018
-4953,414,Product 183,102,Berhampur,7,714,Odisha,2018
-4954,414,Product 93,206,Berhampur,4,824,Odisha,2018
+4940,414,Product 206,205,Berhampur,9,1845,Orissa,2018
+4941,414,Product 429,204,Berhampur,8,1632,Orissa,2018
+4942,414,Product 147,236,Berhampur,5,1180,Orissa,2018
+4943,414,Product 412,136,Berhampur,4,544,Orissa,2018
+4944,414,Product 224,142,Berhampur,9,1278,Orissa,2018
+4945,414,Product 344,300,Berhampur,7,2100,Orissa,2018
+4946,414,Product 479,53,Berhampur,7,371,Orissa,2018
+4947,414,Product 279,242,Berhampur,6,1452,Orissa,2018
+4948,414,Product 287,233,Berhampur,10,2330,Orissa,2018
+4949,414,Product 417,125,Berhampur,10,1250,Orissa,2018
+4950,414,Product 332,151,Berhampur,7,1057,Orissa,2018
+4951,414,Product 32,197,Berhampur,6,1182,Orissa,2018
+4952,414,Product 493,240,Berhampur,1,240,Orissa,2018
+4953,414,Product 183,102,Berhampur,7,714,Orissa,2018
+4954,414,Product 93,206,Berhampur,4,824,Orissa,2018
 4955,415,Product 339,201,Jhunjhunu,10,2010,Rajasthan,2018
 4956,415,Product 341,279,Jhunjhunu,7,1953,Rajasthan,2018
 4957,415,Product 380,210,Jhunjhunu,4,840,Rajasthan,2018
@@ -5572,19 +5572,19 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5571,464,Product 44,109,kapurthala,3,327,Punjab,2018
 5572,464,Product 151,253,kapurthala,7,1771,Punjab,2018
 5573,464,Product 487,140,kapurthala,10,1400,Punjab,2018
-5574,465,Product 190,210,srinagar,5,1050,Jammu & Kashmir,2018
-5575,465,Product 193,282,srinagar,3,846,Jammu & Kashmir,2018
-5576,465,Product 319,146,srinagar,3,438,Jammu & Kashmir,2018
-5577,465,Product 97,89,srinagar,4,356,Jammu & Kashmir,2018
-5578,465,Product 48,214,srinagar,9,1926,Jammu & Kashmir,2018
-5579,465,Product 165,184,srinagar,1,184,Jammu & Kashmir,2018
-5580,465,Product 409,77,srinagar,6,462,Jammu & Kashmir,2018
-5581,465,Product 150,111,srinagar,1,111,Jammu & Kashmir,2018
-5582,465,Product 262,257,srinagar,7,1799,Jammu & Kashmir,2018
-5583,465,Product 8,86,srinagar,2,172,Jammu & Kashmir,2018
-5584,465,Product 29,74,srinagar,1,74,Jammu & Kashmir,2018
-5585,465,Product 261,140,srinagar,3,420,Jammu & Kashmir,2018
-5586,465,Product 158,87,srinagar,7,609,Jammu & Kashmir,2018
+5574,465,Product 190,210,srinagar,5,1050,Jammu and Kashmir,2018
+5575,465,Product 193,282,srinagar,3,846,Jammu and Kashmir,2018
+5576,465,Product 319,146,srinagar,3,438,Jammu and Kashmir,2018
+5577,465,Product 97,89,srinagar,4,356,Jammu and Kashmir,2018
+5578,465,Product 48,214,srinagar,9,1926,Jammu and Kashmir,2018
+5579,465,Product 165,184,srinagar,1,184,Jammu and Kashmir,2018
+5580,465,Product 409,77,srinagar,6,462,Jammu and Kashmir,2018
+5581,465,Product 150,111,srinagar,1,111,Jammu and Kashmir,2018
+5582,465,Product 262,257,srinagar,7,1799,Jammu and Kashmir,2018
+5583,465,Product 8,86,srinagar,2,172,Jammu and Kashmir,2018
+5584,465,Product 29,74,srinagar,1,74,Jammu and Kashmir,2018
+5585,465,Product 261,140,srinagar,3,420,Jammu and Kashmir,2018
+5586,465,Product 158,87,srinagar,7,609,Jammu and Kashmir,2018
 5587,466,Product 425,256,Palghar Dist,5,1280,Maharashtra,2018
 5588,466,Product 188,228,Palghar Dist,1,228,Maharashtra,2018
 5589,466,Product 357,129,Palghar Dist,10,1290,Maharashtra,2018
@@ -5655,18 +5655,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5654,470,Product 280,139,Alibaug,6,834,Maharashtra,2018
 5655,470,Product 183,102,Alibaug,1,102,Maharashtra,2018
 5656,470,Product 274,268,Alibaug,5,1340,Maharashtra,2018
-5657,471,Product 467,144,MODINAGAR,4,576,Utar Pradesh,2018
-5658,471,Product 141,167,MODINAGAR,1,167,Utar Pradesh,2018
-5659,471,Product 255,222,MODINAGAR,4,888,Utar Pradesh,2018
-5660,471,Product 303,285,MODINAGAR,7,1995,Utar Pradesh,2018
-5661,471,Product 211,116,MODINAGAR,5,580,Utar Pradesh,2018
-5662,471,Product 138,279,MODINAGAR,6,1674,Utar Pradesh,2018
-5663,471,Product 83,262,MODINAGAR,6,1572,Utar Pradesh,2018
-5664,471,Product 495,122,MODINAGAR,6,732,Utar Pradesh,2018
-5665,471,Product 469,109,MODINAGAR,3,327,Utar Pradesh,2018
-5666,471,Product 399,232,MODINAGAR,4,928,Utar Pradesh,2018
-5667,471,Product 372,132,MODINAGAR,1,132,Utar Pradesh,2018
-5668,471,Product 303,285,MODINAGAR,10,2850,Utar Pradesh,2018
+5657,471,Product 467,144,MODINAGAR,4,576,Uttar Pradesh,2018
+5658,471,Product 141,167,MODINAGAR,1,167,Uttar Pradesh,2018
+5659,471,Product 255,222,MODINAGAR,4,888,Uttar Pradesh,2018
+5660,471,Product 303,285,MODINAGAR,7,1995,Uttar Pradesh,2018
+5661,471,Product 211,116,MODINAGAR,5,580,Uttar Pradesh,2018
+5662,471,Product 138,279,MODINAGAR,6,1674,Uttar Pradesh,2018
+5663,471,Product 83,262,MODINAGAR,6,1572,Uttar Pradesh,2018
+5664,471,Product 495,122,MODINAGAR,6,732,Uttar Pradesh,2018
+5665,471,Product 469,109,MODINAGAR,3,327,Uttar Pradesh,2018
+5666,471,Product 399,232,MODINAGAR,4,928,Uttar Pradesh,2018
+5667,471,Product 372,132,MODINAGAR,1,132,Uttar Pradesh,2018
+5668,471,Product 303,285,MODINAGAR,10,2850,Uttar Pradesh,2018
 5669,472,Product 381,130,Nirmal,7,910,Telangana,2018
 5670,472,Product 321,95,Nirmal,7,665,Telangana,2018
 5671,472,Product 361,120,Nirmal,10,1200,Telangana,2018
@@ -5781,18 +5781,18 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5780,481,Product 118,119,Chandnnagar,6,714,West Bengal,2018
 5781,481,Product 236,72,Chandnnagar,2,144,West Bengal,2018
 5782,481,Product 104,211,Chandnnagar,2,422,West Bengal,2018
-5783,482,Product 357,129,malappuarm,4,516,Kerela,2018
-5784,482,Product 403,62,malappuarm,3,186,Kerela,2018
-5785,482,Product 165,184,malappuarm,2,368,Kerela,2018
-5786,482,Product 487,140,malappuarm,1,140,Kerela,2018
-5787,482,Product 339,201,malappuarm,1,201,Kerela,2018
-5788,482,Product 306,284,malappuarm,2,568,Kerela,2018
-5789,482,Product 241,108,malappuarm,5,540,Kerela,2018
-5790,482,Product 436,227,malappuarm,7,1589,Kerela,2018
-5791,482,Product 400,117,malappuarm,4,468,Kerela,2018
-5792,482,Product 24,281,malappuarm,10,2810,Kerela,2018
-5793,482,Product 173,84,malappuarm,6,504,Kerela,2018
-5794,482,Product 394,75,malappuarm,7,525,Kerela,2018
+5783,482,Product 357,129,malappuarm,4,516,Kerala,2018
+5784,482,Product 403,62,malappuarm,3,186,Kerala,2018
+5785,482,Product 165,184,malappuarm,2,368,Kerala,2018
+5786,482,Product 487,140,malappuarm,1,140,Kerala,2018
+5787,482,Product 339,201,malappuarm,1,201,Kerala,2018
+5788,482,Product 306,284,malappuarm,2,568,Kerala,2018
+5789,482,Product 241,108,malappuarm,5,540,Kerala,2018
+5790,482,Product 436,227,malappuarm,7,1589,Kerala,2018
+5791,482,Product 400,117,malappuarm,4,468,Kerala,2018
+5792,482,Product 24,281,malappuarm,10,2810,Kerala,2018
+5793,482,Product 173,84,malappuarm,6,504,Kerala,2018
+5794,482,Product 394,75,malappuarm,7,525,Kerala,2018
 5795,483,Product 388,228,MANDI,3,684,Himachal Pradesh,2018
 5796,483,Product 134,127,MANDI,6,762,Himachal Pradesh,2018
 5797,483,Product 204,185,MANDI,1,185,Himachal Pradesh,2018
@@ -5805,17 +5805,17 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5804,483,Product 58,233,MANDI,4,932,Himachal Pradesh,2018
 5805,483,Product 36,64,MANDI,7,448,Himachal Pradesh,2018
 5806,483,Product 170,83,MANDI,3,249,Himachal Pradesh,2018
-5807,484,Product 24,281,Trivanndrum,1,281,Kerela,2018
-5808,484,Product 327,105,Trivanndrum,9,945,Kerela,2018
-5809,484,Product 102,78,Trivanndrum,8,624,Kerela,2018
-5810,484,Product 73,275,Trivanndrum,3,825,Kerela,2018
-5811,484,Product 401,149,Trivanndrum,2,298,Kerela,2018
-5812,484,Product 380,210,Trivanndrum,4,840,Kerela,2018
-5813,484,Product 245,291,Trivanndrum,10,2910,Kerela,2018
-5814,484,Product 326,66,Trivanndrum,8,528,Kerela,2018
-5815,484,Product 287,233,Trivanndrum,5,1165,Kerela,2018
-5816,484,Product 259,272,Trivanndrum,1,272,Kerela,2018
-5817,484,Product 494,216,Trivanndrum,10,2160,Kerela,2018
+5807,484,Product 24,281,Trivanndrum,1,281,Kerala,2018
+5808,484,Product 327,105,Trivanndrum,9,945,Kerala,2018
+5809,484,Product 102,78,Trivanndrum,8,624,Kerala,2018
+5810,484,Product 73,275,Trivanndrum,3,825,Kerala,2018
+5811,484,Product 401,149,Trivanndrum,2,298,Kerala,2018
+5812,484,Product 380,210,Trivanndrum,4,840,Kerala,2018
+5813,484,Product 245,291,Trivanndrum,10,2910,Kerala,2018
+5814,484,Product 326,66,Trivanndrum,8,528,Kerala,2018
+5815,484,Product 287,233,Trivanndrum,5,1165,Kerala,2018
+5816,484,Product 259,272,Trivanndrum,1,272,Kerala,2018
+5817,484,Product 494,216,Trivanndrum,10,2160,Kerala,2018
 5818,485,Product 298,91,tirunelveli,2,182,Tamil Nadu,2018
 5819,485,Product 218,254,tirunelveli,7,1778,Tamil Nadu,2018
 5820,485,Product 206,205,tirunelveli,5,1025,Tamil Nadu,2018
@@ -5840,22 +5840,22 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5839,486,Product 422,61,Chenai,2,122,Tamil Nadu,2018
 5840,486,Product 479,53,Chenai,3,159,Tamil Nadu,2018
 5841,486,Product 260,167,Chenai,1,167,Tamil Nadu,2018
-5842,487,Product 196,67,Kochin,8,536,Kerela,2018
-5843,487,Product 375,298,Kochin,5,1490,Kerela,2018
-5844,487,Product 7,300,Kochin,8,2400,Kerela,2018
-5845,487,Product 127,211,Kochin,1,211,Kerela,2018
-5846,487,Product 58,233,Kochin,2,466,Kerela,2018
-5847,487,Product 217,59,Kochin,2,118,Kerela,2018
-5848,487,Product 336,51,Kochin,2,102,Kerela,2018
-5849,487,Product 230,165,Kochin,9,1485,Kerela,2018
-5850,487,Product 26,125,Kochin,8,1000,Kerela,2018
-5851,487,Product 199,280,Kochin,9,2520,Kerela,2018
-5852,487,Product 206,205,Kochin,9,1845,Kerela,2018
-5853,487,Product 202,220,Kochin,3,660,Kerela,2018
-5854,487,Product 188,228,Kochin,5,1140,Kerela,2018
-5855,487,Product 243,157,Kochin,5,785,Kerela,2018
-5856,487,Product 355,182,Kochin,9,1638,Kerela,2018
-5857,487,Product 349,289,Kochin,4,1156,Kerela,2018
+5842,487,Product 196,67,Kochin,8,536,Kerala,2018
+5843,487,Product 375,298,Kochin,5,1490,Kerala,2018
+5844,487,Product 7,300,Kochin,8,2400,Kerala,2018
+5845,487,Product 127,211,Kochin,1,211,Kerala,2018
+5846,487,Product 58,233,Kochin,2,466,Kerala,2018
+5847,487,Product 217,59,Kochin,2,118,Kerala,2018
+5848,487,Product 336,51,Kochin,2,102,Kerala,2018
+5849,487,Product 230,165,Kochin,9,1485,Kerala,2018
+5850,487,Product 26,125,Kochin,8,1000,Kerala,2018
+5851,487,Product 199,280,Kochin,9,2520,Kerala,2018
+5852,487,Product 206,205,Kochin,9,1845,Kerala,2018
+5853,487,Product 202,220,Kochin,3,660,Kerala,2018
+5854,487,Product 188,228,Kochin,5,1140,Kerala,2018
+5855,487,Product 243,157,Kochin,5,785,Kerala,2018
+5856,487,Product 355,182,Kochin,9,1638,Kerala,2018
+5857,487,Product 349,289,Kochin,4,1156,Kerala,2018
 5858,488,Product 311,266,Chengalpattu,10,2660,Tamil Nadu,2018
 5859,488,Product 493,240,Chengalpattu,7,1680,Tamil Nadu,2018
 5860,488,Product 395,142,Chengalpattu,10,1420,Tamil Nadu,2018
@@ -5930,17 +5930,17 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5929,493,Product 339,201,Kalyan west,2,402,Maharashtra,2018
 5930,493,Product 261,140,Kalyan west,10,1400,Maharashtra,2018
 5931,493,Product 108,291,Kalyan west,8,2328,Maharashtra,2018
-5932,494,Product 432,149,Rayagada,5,745,Odhisha,2018
-5933,494,Product 175,80,Rayagada,4,320,Odhisha,2018
-5934,494,Product 349,289,Rayagada,2,578,Odhisha,2018
-5935,494,Product 393,258,Rayagada,9,2322,Odhisha,2018
-5936,494,Product 31,81,Rayagada,2,162,Odhisha,2018
-5937,494,Product 249,131,Rayagada,3,393,Odhisha,2018
-5938,494,Product 241,108,Rayagada,7,756,Odhisha,2018
-5939,494,Product 304,300,Rayagada,9,2700,Odhisha,2018
-5940,494,Product 104,211,Rayagada,8,1688,Odhisha,2018
-5941,494,Product 458,250,Rayagada,6,1500,Odhisha,2018
-5942,494,Product 269,123,Rayagada,5,615,Odhisha,2018
+5932,494,Product 432,149,Rayagada,5,745,Orissa,2018
+5933,494,Product 175,80,Rayagada,4,320,Orissa,2018
+5934,494,Product 349,289,Rayagada,2,578,Orissa,2018
+5935,494,Product 393,258,Rayagada,9,2322,Orissa,2018
+5936,494,Product 31,81,Rayagada,2,162,Orissa,2018
+5937,494,Product 249,131,Rayagada,3,393,Orissa,2018
+5938,494,Product 241,108,Rayagada,7,756,Orissa,2018
+5939,494,Product 304,300,Rayagada,9,2700,Orissa,2018
+5940,494,Product 104,211,Rayagada,8,1688,Orissa,2018
+5941,494,Product 458,250,Rayagada,6,1500,Orissa,2018
+5942,494,Product 269,123,Rayagada,5,615,Orissa,2018
 5943,495,Product 263,68,Patparganj,1,68,New Delhi,2018
 5944,495,Product 90,255,Patparganj,2,510,New Delhi,2018
 5945,495,Product 51,126,Patparganj,6,756,New Delhi,2018
@@ -5989,13 +5989,13 @@ Nos.,order_id,item,Price,City,quantity,bill_amount,state,date
 5988,499,Product 460,240,Surathkal,3,720,Karnataka,2018
 5989,499,Product 372,132,Surathkal,3,396,Karnataka,2018
 5990,499,Product 437,214,Surathkal,6,1284,Karnataka,2018
-5991,500,Product 410,296,Calicut,4,1184,Kerela,2018
-5992,500,Product 274,268,Calicut,6,1608,Kerela,2018
-5993,500,Product 236,72,Calicut,6,432,Kerela,2018
-5994,500,Product 173,84,Calicut,1,84,Kerela,2018
-5995,500,Product 36,64,Calicut,5,320,Kerela,2018
-5996,500,Product 93,206,Calicut,7,1442,Kerela,2018
-5997,500,Product 485,295,Calicut,9,2655,Kerela,2018
-5998,500,Product 341,279,Calicut,1,279,Kerela,2018
-5999,500,Product 460,240,Calicut,9,2160,Kerela,2018
-6000,500,Product 298,91,Calicut,6,546,Kerela,2018
+5991,500,Product 410,296,Calicut,4,1184,Kerala,2018
+5992,500,Product 274,268,Calicut,6,1608,Kerala,2018
+5993,500,Product 236,72,Calicut,6,432,Kerala,2018
+5994,500,Product 173,84,Calicut,1,84,Kerala,2018
+5995,500,Product 36,64,Calicut,5,320,Kerala,2018
+5996,500,Product 93,206,Calicut,7,1442,Kerala,2018
+5997,500,Product 485,295,Calicut,9,2655,Kerala,2018
+5998,500,Product 341,279,Calicut,1,279,Kerala,2018
+5999,500,Product 460,240,Calicut,9,2160,Kerala,2018
+6000,500,Product 298,91,Calicut,6,546,Kerala,2018
